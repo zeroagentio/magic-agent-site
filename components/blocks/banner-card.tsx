@@ -11,7 +11,10 @@ export function BannerCard() {
     > 
     <Image 
       className=" object-cover"
-      src={BannerImg} alt="magic agent"
+      width={0}
+      height={0}
+      src={BannerImg}  
+      alt="magic agent" 
        />  
     </ShineBorder>
   );

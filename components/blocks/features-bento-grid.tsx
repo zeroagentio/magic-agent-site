@@ -1,6 +1,3 @@
-import { CalendarIcon, FileTextIcon } from "@radix-ui/react-icons";
-import { BellIcon, Share2Icon } from "lucide-react";
-
 import { cn } from "@/lib/utils";  
 import { BentoCard, BentoGrid } from "@/components/magicui/bento-grid"; 
 import { ToolsFlow } from "./tools-flow";
@@ -9,39 +6,72 @@ import Marquee from "../magicui/marquee";
 
 const files = [
   {
-    name: "bitcoin.pdf",
-    body: "Bitcoin is a cryptocurrency invented in 2008 by an unknown person or group of people using the name Satoshi Nakamoto.",
+    name: "Google Meet",
+    body: "Schedule a team meeting for next Friday",
   },
   {
-    name: "finances.xlsx",
-    body: "A spreadsheet or worksheet is a file made of rows and columns that help sort data, arrange data easily, and calculate numerical data.",
+    name: "Github",
+    body: "Create a new GitHub repository named 'AI-Assistant'",
   },
   {
-    name: "logo.svg",
-    body: "Scalable Vector Graphics is an Extensible Markup Language-based vector image format for two-dimensional graphics with support for interactivity and animation.",
+    name: "Slack",
+    body: "Prepare a report and send via Slack.",
+  },  
+  {
+    name: "Trello",
+    body: "Create a Trello board and assign tasks to team.",
   },
   {
-    name: "keys.gpg",
-    body: "GPG keys are used to encrypt and decrypt email, files, directories, and whole disk partitions and to authenticate messages.",
+    name: "Powerpoint",
+    body: "Create a 5-slide presentation on AI trends.",
   },
   {
-    name: "seed.txt",
-    body: "A seed phrase, seed recovery phrase or backup seed phrase is a list of words which store all the information needed to recover Bitcoin funds on-chain.",
+    name: "Google Sheets",
+    body: "Analyze sales data and generate a summary in Google Sheets.",
+  },
+  {
+    name: "Word",
+    body: "Draft a project proposal for a new 'Rising Indian Economy'.",
   },
 ];
 
 const features = [
-  {
-    Icon: FileTextIcon,
-    name: "Save your files",
-    description: "We automatically save your files as you type.",
+  { 
+    name: "Agent Connectors",
+    description: "Connect with 10+ integrations and let our agents handle daily tasks.",
+    href: "#",
+    cta: "Learn more",
+    className: "col-span-6 lg:col-span-3",
+    background: (
+      <ToolsFlow className="absolute h-[300px] border-none transition-all duration-300 ease-out [mask-image:linear-gradient(to_top,transparent_10%,#000_100%)] group-hover:scale-105" />
+    ),
+  },
+  // {
+  //   Icon: CalendarIcon,
+  //   name: "Save your files",
+  //   description: "We automatically save your files as you type.",
+  //   className: "col-span-3 lg:col-span-1",
+  //   href: "#",
+  //   cta: "Learn more",
+  //   background: (
+  //       <></>
+  //   //   <Calendar
+  //   //     mode="single"
+  //   //     selected={new Date(2022, 4, 11, 0, 0, 0)}
+  //   //     className="absolute right-0 top-10 origin-top rounded-md border transition-all duration-300 ease-out [mask-image:linear-gradient(to_top,transparent_40%,#000_100%)] group-hover:scale-105"
+  //   //   />
+  //   ),
+  // },
+  { 
+    name: "Task Automation",
+    description: "Type a prompt, let Agents handle the rest",
     href: "#",
     cta: "Learn more",
     className: "col-span-3 lg:col-span-1",
     background: (
       <Marquee
         pauseOnHover
-        className="absolute top-10 [--duration:20s] [mask-image:linear-gradient(to_top,transparent_40%,#000_100%)] "
+        className="absolute top-10 [--duration:30s] [mask-image:linear-gradient(to_top,transparent_10%,#000_100%)] "
       >
         {files.map((f, idx) => (
           <figure
@@ -66,42 +96,14 @@ const features = [
       </Marquee>
     ),
   },
-  {
-    Icon: BellIcon,
-    name: "Notifications",
-    description: "Get notified when something happens.",
+  { 
+    name: "Agent Activity",
+    description: "Real-time updates from Google Meet, Calendar, Facebook, and other tools.",
     href: "#",
     cta: "Learn more",
     className: "col-span-3 lg:col-span-2",
     background: (
-      <AnimatedAgentList className="absolute right-2 top-4 h-[300px] w-full border-none transition-all duration-300 ease-out [mask-image:linear-gradient(to_top,transparent_10%,#000_100%)] group-hover:scale-105" />
-    ),
-  },
-  {
-    Icon: Share2Icon,
-    name: "Integrations",
-    description: "Supports 10+ integrations and counting.",
-    href: "#",
-    cta: "Learn more",
-    className: "col-span-3 lg:col-span-2",
-    background: (
-      <ToolsFlow className="absolute right-2 top-4 h-[300px] border-none transition-all duration-300 ease-out [mask-image:linear-gradient(to_top,transparent_10%,#000_100%)] group-hover:scale-105" />
-    ),
-  },
-  {
-    Icon: CalendarIcon,
-    name: "Calendar",
-    description: "Use the calendar to filter your files by date.",
-    className: "col-span-3 lg:col-span-1",
-    href: "#",
-    cta: "Learn more",
-    background: (
-        <></>
-    //   <Calendar
-    //     mode="single"
-    //     selected={new Date(2022, 4, 11, 0, 0, 0)}
-    //     className="absolute right-0 top-10 origin-top rounded-md border transition-all duration-300 ease-out [mask-image:linear-gradient(to_top,transparent_40%,#000_100%)] group-hover:scale-105"
-    //   />
+      <AnimatedAgentList className="absolute  h-[300px] w-full border-none transition-all duration-300 ease-out [mask-image:linear-gradient(to_top,transparent_10%,#000_100%)] group-hover:scale-105" />
     ),
   },
 ];

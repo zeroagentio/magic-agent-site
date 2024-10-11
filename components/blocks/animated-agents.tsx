@@ -2,50 +2,64 @@
 
 import { cn } from "@/lib/utils"; 
 import { AnimatedList } from "../magicui/animated-list";
+import Image, { StaticImageData } from "next/image";
+import Github from "@/app/assets/github.png";
+import Slack from "@/app/assets/slack.png";
+import GMeet from "@/app/assets/google-meet.png";
+import GMail from "@/app/assets/gmail.png";
+import Calendar from "@/app/assets/google-calendar.png";
+import Facebook from "@/app/assets/facebook.png";
 
 interface Item {
   name: string;
   description: string;
-  icon: string;
-  color: string;
-  time: string;
+  icon: StaticImageData;
+  color: string; 
 }
 
-let notifications = [
-  {
-    name: "Payment received",
-    description: "Magic UI",
-    time: "15m ago",
-
-    icon: "💸",
-    color: "#00C9A7",
-  },
-  {
-    name: "User signed up",
-    description: "Magic UI",
-    time: "10m ago",
-    icon: "👤",
-    color: "#FFB800",
-  },
-  {
-    name: "New message",
-    description: "Magic UI",
-    time: "5m ago",
-    icon: "💬",
-    color: "#FF3D71",
-  },
-  {
-    name: "New event",
-    description: "Magic UI",
-    time: "2m ago",
-    icon: "🗞️",
-    color: "#1E86FF",
-  },
+let notifications = [ 
+    {
+      name: "GitHub Updates",
+      description: "Code repository updates and notifications",
+      icon: Github,
+      color: "#6e5494",
+    },
+    {
+      name: "Slack Messages",
+      description: "Team communication and collaboration",
+      icon: Slack,
+      color: "#722F77",
+    },
+    {
+      name: "Email Notifications",
+      description: "Important email updates and alerts",
+      icon: GMail,
+      color: "#FFC107",
+    },
+    {
+      name: "Google Meet Reminders",
+      description: "Upcoming meeting reminders and invitations",
+      icon: GMeet,
+      color: "#1976D2",
+    },
+    {
+      name: "Calendar Events",
+      description: "Upcoming events and schedule updates",
+      icon: Calendar,
+      color: "#34A853",
+    },
+    {
+      name: "Facebook Alerts",
+      description: "Social media updates and notifications",
+      icon: Facebook,
+      color: "#4267B2",
+    }, 
 ];
+ 
 
 notifications = Array.from({ length: 10 }, () => notifications).flat();
 
-const Notification = ({ name, description, icon, color, time }: Item) => {
+const Notification = ({ name, description, icon, color }: Item) => {
   return (
     <figure
       className={cn(
@@ -65,13 +79,15 @@ const Notification = ({ name, description, icon, color, time }: Item) => {
             backgroundColor: color,
           }}
         >
-          <span className="text-lg">{icon}</span>
+          <Image className="w-8 h-8"
+          height={'8'}
+          width={'8'}
+          src={icon} alt="icon" />
+          {/* <span className="text-lg">{icon}</span> */}
         </div>
         <div className="flex flex-col overflow-hidden">
           <figcaption className="flex flex-row items-center whitespace-pre text-lg font-medium dark:text-white ">
-            <span className="text-sm sm:text-lg">{name}</span>
-            <span className="mx-1">·</span>
-            <span className="text-xs text-gray-500">{time}</span>
+            <span className="text-sm sm:text-lg">{name}</span>  
           </figcaption>
           <p className="text-sm font-normal dark:text-white/60">
             {description}
