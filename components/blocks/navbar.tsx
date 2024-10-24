@@ -1,12 +1,12 @@
 import { AlignJustifyIcon } from "lucide-react";
 import LogoLight from "@/app/assets/logo.svg";
 import Image from "next/image";
-import { WAITINGLIST_FORM } from "@/lib/utils";
+import { DOCS, WAITINGLIST_FORM } from "@/lib/utils";
 const Navbar = () => {
   return (
     <>
       <header className="fixed left-0 top-3 z-50 w-full translate-y-[-1rem] animate-fade-in border-b opacity-1 backdrop-blur-[12px] [--animation-delay:600ms]">
-        <div className="container mx-auto flex h-[4rem] items-center justify-between">
+        <div className="mx-10 md:container md:mx-auto flex h-[4rem] items-center justify-between">
           <a className="text-md flex items-center" href="/">
             <Image 
             src={LogoLight} 
@@ -17,7 +17,20 @@ const Navbar = () => {
             ZeroAgent
           </span>
           </a>
-          <div className="ml-auto flex h-full items-center">
+          {/* <div className="ml-auto hidden sm:hidden md:flex h-full items-center">
+          
+            <a className="mr-6 text-sm" href={WAITINGLIST_FORM}
+              target="_blank">
+              Documentation
+            </a>
+          </div> */}
+          <div className="ml-auto hidden sm:hidden md:flex h-full items-center">
+            
+          <a className="mr-6 text-sm" href={DOCS}
+              target="_blank">
+              Docs
+            </a>
+
             <a className="mr-6 text-sm" href={WAITINGLIST_FORM}
               target="_blank">
               Log in
@@ -30,10 +43,10 @@ const Navbar = () => {
               Sign Up
             </a>
           </div>
-          <button className="ml-6 md:hidden">
+          {/* <button className="ml-6 md:hidden">
             <span className="sr-only">Toggle menu</span>
             <AlignJustifyIcon />
-          </button>
+          </button> */}
         </div>
       </header>
     </>

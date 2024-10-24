@@ -3,6 +3,10 @@ import { BentoCard, BentoGrid } from "@/components/magicui/bento-grid";
 import { ToolsFlow } from "./tools-flow";
 import { AnimatedAgentList } from "./animated-agents";
 import Marquee from "../magicui/marquee";
+import ShineBorder from "../magicui/shine-border";
+import Image from "next/image";
+import Workflow from "@/app/assets/workflow.png";
+import { ShimmerHumanLoopButton } from "./ripple-humanloop";
 
 const files = [
   {
@@ -41,9 +45,20 @@ const features = [
     description: "Connect with 10+ integrations and let our agents handle daily tasks.",
     href: "#",
     cta: "Learn more",
-    className: "col-span-6 lg:col-span-3",
-    background: (
+    // className: "col-span-6 lg:col-span-3",
+    className: "col-span-6 lg:col-span-2",
+    background: (  
       <ToolsFlow className="absolute h-[300px] border-none transition-all duration-300 ease-out [mask-image:linear-gradient(to_top,transparent_10%,#000_100%)] group-hover:scale-105" />
+    ),
+  },
+  { 
+    name: "Human In Loop",
+    description: "Maintain control over automated actions",
+    href: "#",
+    cta: "Learn more",
+    className: "col-span-6 lg:col-span-1",
+    background: ( 
+        <ShimmerHumanLoopButton />    
     ),
   },
   // {
@@ -67,7 +82,7 @@ const features = [
     description: "Type a prompt, let Agents handle the rest",
     href: "#",
     cta: "Learn more",
-    className: "col-span-3 lg:col-span-1",
+    className: "col-span-6 lg:col-span-1",
     background: (
       <Marquee
         pauseOnHover
@@ -101,7 +116,7 @@ const features = [
     description: "Real-time updates from Google Meet, Calendar, Facebook, and other tools.",
     href: "#",
     cta: "Learn more",
-    className: "col-span-3 lg:col-span-2",
+    className: "col-span-6 lg:col-span-2",
     background: (
       <AnimatedAgentList className="absolute  h-[300px] w-full border-none transition-all duration-300 ease-out [mask-image:linear-gradient(to_top,transparent_10%,#000_100%)] group-hover:scale-105" />
     ),

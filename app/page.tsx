@@ -5,7 +5,8 @@ import CustomText from "@/components/blocks/custom-text";
 import { FeaturesBento } from "@/components/blocks/features-bento-grid";
 import Footer from "@/components/blocks/footer";
 import Header from "@/components/blocks/header";   
-import Navbar from "@/components/blocks/navbar";
+import Navbar from "@/components/blocks/navbar"; 
+import { WorkflowCard } from "@/components/blocks/workflow-card";
 
 export default function Home() {
   return (
@@ -19,14 +20,19 @@ export default function Home() {
       <br /> 
       <div className="mt-14">
       <CustomText title={"AI Agents, Business Superheroes"} />
-      <CustomDescription title={"Connect tools, Automate tasks and stay updated with AI Agents"} />
+      <CustomDescription title={"Connect tools, Automate tasks and stay updated with AI Agents"} />      
       <FeaturesBento />
       </div>
-      <br />
+
+      {/* <div className="mt-20">
+      <CustomText title={"AI Agents, Business Superheroes"} />
+      <CustomDescription title={"Connect with 10+ integrations and let our agents handle daily tasks"} />
+      <WorkflowCard />
+      </div>  */}
     </div>
       <CTA />
       <br />
-      <br />
+      <br /> 
       <Footer />
     </>
   );

@@ -33,7 +33,10 @@ const Header = () => {
 
       <p className="mb-7 text-lg leading-loose font-medium tracking-normal text-gray-400 md:text-xl text-balance translate-y-[-1rem] animate-fade-in opacity-1 [--animation-delay:400ms]">
       {/* Use simple chat prompts to perform tasks across <br className="hidden md:block" />multiple business tools with AI Agents   */}
-      Automate tasks with simple chat prompts. <br className="hidden md:block" /> Save time, boost productivity
+      {/* Automate tasks with simple chat prompts. <br className="hidden md:block" /> Save time, boost productivity */}
+      Schedule a Sales team meet and notify on <br className="hidden md:block" />Slack channel - Agent Handles Rest
+
+      
       </p>
       <RainbowButtonDemo /> 
     </>

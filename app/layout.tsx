@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Logo from "@/app/assets/logo.svg";
 import Thumbnail from "@/app/assets/thumbnail.png";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -78,11 +79,27 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark">
+      <head>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-RQMXKE8FE1"></script>
+    <script 
+     dangerouslySetInnerHTML={{
+      __html: `
+         window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-RQMXKE8FE1');
+      `,
+    }}
+    > 
+    </script>
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
       </body>
+      <GoogleAnalytics gaId="G-RQMXKE8FE1"/>       
     </html>
   );
 }

@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4eef1e1c-8ad0-404a-80d4-e98583582c2a/deploy-status)](https://app.netlify.com/sites/zeroagent/deploys)
 
 ## Getting Started
 

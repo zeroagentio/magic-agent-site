@@ -148,7 +148,7 @@ const Footer = () => {
               <InstagramLogoIcon height={20} width={20} />
             </a>
           </div>
-          <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
+          <span className="text-xs md:text-sm text-gray-500 sm:text-center dark:text-gray-400">
             Copyright © {currentYear}{" "}
             <a className="cursor-pointer" href="/">
               Zeromagic Labs Pvt. Ltd
