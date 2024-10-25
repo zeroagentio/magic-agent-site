@@ -14,7 +14,7 @@ const Navbar = () => {
             alt={"ZeroAgent"}          
             />              
             <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-gray-white">
-            ZeroAgent
+            zeroagent
           </span>
           </a>
           {/* <div className="ml-auto hidden sm:hidden md:flex h-full items-center">
