@@ -38,7 +38,9 @@ const Footer = () => {
                 <li>
                   <a
                     className="cursor-pointer text-gray-400 hover:text-gray-200 duration-200 font-[450] text-sm"
+                    target="blank"
                     href="#"
+                    // href="https://docs.zeroagent.io/"
                   >
                     Documentation
                   </a>
@@ -60,38 +62,31 @@ const Footer = () => {
                   </a>
                 </li>
               </ul>
-            </div>
+            </div> 
             <div>
               <h2 className="mb-6 text-sm tracking-tighter font-medium text-gray-900 uppercase dark:text-white">
-                Community
+                Policy
               </h2>
               <ul className="gap-2 grid">
                 <li>
                   <a
                     className="cursor-pointer text-gray-400 hover:text-gray-200 duration-200 font-[450] text-sm"
-                    href="https://github.com/teamzeromagic/"
+                    href="terms-conditions/"
                   >
-                    Github
+                    Terms and Conditions
                   </a>
                 </li>
                 <li>
                   <a
                     className="cursor-pointer text-gray-400 hover:text-gray-200 duration-200 font-[450] text-sm"
-                    href="https://www.linkedin.com/company/zeromagic/"
+                    href="privacy-policy/"
                   >
-                    Linkedin
+                    Privacy Policy
                   </a>
-                </li>
-                <li>
-                  <a
-                    className="cursor-pointer text-gray-400 hover:text-gray-200 duration-200 font-[450] text-sm"
-                    href="https://www.youtube.com/@zeromagic-cloud"
-                  >
-                    Youtube
-                  </a>
-                </li>
+                </li>   
               </ul>
             </div>
+
             <div>
               <h2 className="mb-6 text-sm tracking-tighter font-medium text-gray-900 uppercase dark:text-white">
                 Connect with Us
