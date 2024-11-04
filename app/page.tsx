@@ -5,6 +5,7 @@ import CustomText from "@/components/blocks/custom-text";
 import { FeaturesBento } from "@/components/blocks/features-bento-grid";
 import Footer from "@/components/blocks/footer";
 import Header from "@/components/blocks/header";   
+import { HeroVideoDialogDemo } from "@/components/blocks/hero-video";
 import Navbar from "@/components/blocks/navbar"; 
 import { WorkflowCard } from "@/components/blocks/workflow-card";
 
@@ -22,8 +23,7 @@ export default function Home() {
       <CustomText title={"AI Agents, Business Superheroes"} />
       <CustomDescription title={"Connect tools, Automate tasks and stay updated with AI Agents"} />      
       <FeaturesBento />
-      </div>
-
+      </div>   
       {/* <div className="mt-20">
       <CustomText title={"AI Agents, Business Superheroes"} />
       <CustomDescription title={"Connect with 10+ integrations and let our agents handle daily tasks"} />

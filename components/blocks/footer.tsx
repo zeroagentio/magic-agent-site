@@ -7,6 +7,7 @@ import {
   LinkedInLogoIcon,
 } from "@radix-ui/react-icons";
 import { MailIcon } from "lucide-react";
+import { CONTACT, DOCS } from "@/lib/utils";
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
@@ -26,7 +27,7 @@ const Footer = () => {
               </span>
             </div>
             <p className="max-w-xs text-gray-200">
-              Personalised AI Agent for Business Tools
+              AI Agents for Business Tools
             </p>
           </div>
           <div className="grid grid-cols-1 gap-8 sm:gap-10 sm:grid-cols-3">
@@ -38,9 +39,8 @@ const Footer = () => {
                 <li>
                   <a
                     className="cursor-pointer text-gray-400 hover:text-gray-200 duration-200 font-[450] text-sm"
-                    target="blank"
-                    href="#"
-                    // href="https://docs.zeroagent.io/"
+                    target="blank"                    
+                    href={DOCS}
                   >
                     Documentation
                   </a>
@@ -95,9 +95,9 @@ const Footer = () => {
                 <li>
                   <a
                     className="cursor-pointer text-gray-400 hover:text-gray-200 duration-200 font-[450] text-sm"
-                    href="mailto:zeromagic.cloud@gmail.com"
+                    href={CONTACT}
                   >
-                    zeromagic.cloud@gmail.com
+                    support@zeroagent.io
                   </a>
                 </li>
               </ul>
@@ -110,7 +110,7 @@ const Footer = () => {
               rel="noopener"
               title="Github"
               className="text-gray-500 hover:text-gray-900 dark:hover:text-gray-600 fill-gray-500 hover:fill-gray-900 dark:hover:fill-gray-600"
-              href="https://github.com/teamzeromagic/"
+              href="https://github.com/zeroagentio/"
               target="_blank"
             >
               <GitHubLogoIcon height={20} width={20} />
@@ -119,7 +119,7 @@ const Footer = () => {
               rel="noopener"
               title="Mail"
               className="text-gray-500 hover:text-gray-900 dark:hover:text-gray-600 fill-gray-500 hover:fill-gray-900 dark:hover:fill-gray-600"
-              href="mailto:zeromagic.cloud@gmail.com"
+              href={CONTACT}
               target="_blank"
             >
               <MailIcon height={20} width={20} />
@@ -128,7 +128,7 @@ const Footer = () => {
               rel="noopener"
               title="LinkedIn"
               className="text-gray-500 hover:text-gray-900 dark:hover:text-gray-600 fill-gray-500 hover:fill-gray-900 dark:hover:fill-gray-600"
-              href="https://www.linkedin.com/company/zeromagic/"
+              href="https://www.linkedin.com/company/zeroagent/"
               target="_blank"
             >
               <LinkedInLogoIcon height={20} width={20} />

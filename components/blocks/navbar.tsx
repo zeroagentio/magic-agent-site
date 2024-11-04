@@ -1,7 +1,7 @@
 import { AlignJustifyIcon } from "lucide-react";
 import LogoLight from "@/app/assets/logo.svg";
 import Image from "next/image";
-import { DOCS, WAITINGLIST_FORM } from "@/lib/utils";
+import { CONTACT, DOCS, TOOLS, WAITINGLIST_FORM } from "@/lib/utils";
 const Navbar = () => {
   return (
     <>
@@ -17,19 +17,31 @@ const Navbar = () => {
             zeroagent
           </span>
           </a>
-          {/* <div className="ml-auto hidden sm:hidden md:flex h-full items-center">
+          <div className="ml-auto hidden sm:hidden md:flex h-full items-center">
           
-            <a className="mr-6 text-sm" href={WAITINGLIST_FORM}
+            <a className="mr-6 text-sm" href={DOCS}
               target="_blank">
               Documentation
             </a>
-          </div> */}
+            <a className="mr-6 text-sm"
+              target="_blank"
+              href={TOOLS}
+              >
+              Tools
+            </a>
+            <a className="mr-6 text-sm"
+              target="_blank"
+              href={CONTACT}
+              >
+              Contact
+            </a>
+          </div>
           <div className="ml-auto hidden sm:hidden md:flex h-full items-center">
-            
+{/*             
           <a className="mr-6 text-sm" href={DOCS}
               target="_blank">
               Docs
-            </a>
+            </a> */}
 
             <a className="mr-6 text-sm" href={WAITINGLIST_FORM}
               target="_blank">
