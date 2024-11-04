@@ -162,7 +162,7 @@ These terms and conditions are effective as of `2024-10-25`
 
 <br />
 
-If you have any questions or suggestions about our Terms and Conditions, do not hesitate to contact us at [ndrohith09@gmail.com](mailto:ndrohith09@gmail.com).
+If you have any questions or suggestions about our Terms and Conditions, do not hesitate to contact us at [support@zeroagent.io](mailto:support@zeroagent.io).
 
 <br />
 

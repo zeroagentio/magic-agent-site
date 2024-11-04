@@ -121,7 +121,7 @@ This Service may contain links to other sites. If you click on a third-party lin
 
 <br />
 
-The _Service Provider_ will retain User Provided data for as long as you use the Application and for a reasonable time thereafter. The _Service Provider_ will retain Automatically Collected information for up to 24 months and thereafter may store it in aggregate. If you'd like the _Service Provider_ to delete User Provided Data that you have provided via the Application, please contact them at ndrohith09@gmail.com and we will respond in a reasonable time. Please note that some or all of the User Provided Data may be required in order for the Application to function properly.
+The _Service Provider_ will retain User Provided data for as long as you use the Application and for a reasonable time thereafter. The _Service Provider_ will retain Automatically Collected information for up to 24 months and thereafter may store it in aggregate. If you'd like the _Service Provider_ to delete User Provided Data that you have provided via the Application, please contact them at support@zeroagent.io and we will respond in a reasonable time. Please note that some or all of the User Provided Data may be required in order for the Application to function properly.
 
 <br />
 
@@ -141,7 +141,7 @@ The _Service Provider_ does not use the Application to knowingly solicit data fr
 
 <br />
 
-The Application does not address anyone under the age of 13. The _Service Provider_ does not knowingly collect personally identifiable information from children under 13 years of age. In the case the _Service Provider_ discover that a child under 13 has provided personal information, the _Service Provider_ will immediately delete this from their servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact the _Service Provider_ (ndrohith09@gmail.com) so that they will be able to take the necessary actions.
+The Application does not address anyone under the age of 13. The _Service Provider_ does not knowingly collect personally identifiable information from children under 13 years of age. In the case the _Service Provider_ discover that a child under 13 has provided personal information, the _Service Provider_ will immediately delete this from their servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact the _Service Provider_ (support@zeroagent.io) so that they will be able to take the necessary actions.
 
 <br />
 
@@ -169,7 +169,7 @@ By using the Application, you are giving your consent to the _Service Provider_ 
 
 <br />
 
-If you have any questions regarding privacy while using the Application, or have questions about the practices, please contact the _Service Provider_ via email at [ndrohith09@gmail.com](mailto:ndrohith09@gmail.com).
+If you have any questions regarding privacy while using the Application, or have questions about the practices, please contact the _Service Provider_ via email at [support@zeroagent.io](mailto:support@zeroagent.io).
 
 <br />
 
