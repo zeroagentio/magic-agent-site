@@ -21,7 +21,7 @@ export default function Home() {
       <br /> 
       <div className="mt-14">
       <CustomText title={"AI Agents, Business Superheroes"} />
-      <CustomDescription title={"Connect tools, Automate tasks and stay updated with AI Agents"} />      
+      <CustomDescription title={"Connect apps, Automate tasks and stay updated with AI Agents"} />      
       <FeaturesBento />
       </div>   
       {/* <div className="mt-20">

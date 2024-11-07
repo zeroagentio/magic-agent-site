@@ -11,9 +11,9 @@ const CTA = () => {
       <HeartHandshake className="mx-auto size-16 text-black dark:text-white lg:size-24"/>
       </div>
       <div className="z-10 mt-4 flex flex-col items-center text-center text-primary">
-        <h1 className="text-3xl font-bold lg:text-4xl">
+        <h3 className="text-3xl font-bold lg:text-4xl">
           AI Agents that Integrate & Automate
-        </h1>
+        </h3>
         <p className="mt-2">
           Start your free trial now. No credit card required.
         </p>

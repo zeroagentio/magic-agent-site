@@ -27,14 +27,14 @@ const Footer = () => {
               </span>
             </div>
             <p className="max-w-xs text-gray-200">
-              AI Agents for Business Tools
+              AI Agents for everyday Business apps
             </p>
           </div>
           <div className="grid grid-cols-1 gap-8 sm:gap-10 sm:grid-cols-3">
             <div>
-              <h2 className="mb-6 text-sm tracking-tighter font-medium text-gray-900 uppercase dark:text-white">
+              <h4 className="mb-6 text-sm tracking-tighter font-medium text-gray-900 uppercase dark:text-white">
                 Product
-              </h2>
+              </h4>
               <ul className="gap-2 grid">
                 <li>
                   <a
@@ -49,6 +49,7 @@ const Footer = () => {
                   <a
                     className="cursor-pointer text-gray-400 hover:text-gray-200 duration-200 font-[450] text-sm"
                     href="#"
+
                   >
                     Pricing
                   </a>
@@ -64,9 +65,9 @@ const Footer = () => {
               </ul>
             </div> 
             <div>
-              <h2 className="mb-6 text-sm tracking-tighter font-medium text-gray-900 uppercase dark:text-white">
+              <h4 className="mb-6 text-sm tracking-tighter font-medium text-gray-900 uppercase dark:text-white">
                 Policy
-              </h2>
+              </h4>
               <ul className="gap-2 grid">
                 <li>
                   <a
@@ -88,9 +89,9 @@ const Footer = () => {
             </div>
 
             <div>
-              <h2 className="mb-6 text-sm tracking-tighter font-medium text-gray-900 uppercase dark:text-white">
+              <h4 className="mb-6 text-sm tracking-tighter font-medium text-gray-900 uppercase dark:text-white">
                 Connect with Us
-              </h2>
+              </h4>
               <ul className="gap-2 grid">
                 <li>
                   <a

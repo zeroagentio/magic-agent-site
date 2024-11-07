@@ -18,49 +18,55 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "ZeroAgent",
-  description:
-    "Streamline your workflow with our AI Agents that connect across various business tools. Automate tasks effortlessly using simple chat prompts.",
+  description: 
+  "Simplify your day-to-day business operations with AI Agents. Connect, manage, and execute tasks across multiple apps in one platform using simple chat prompts. Work smarter by eliminating repetitive work!",    
   icons: [
     { rel: "icon", url: Logo },
     { rel: "apple-touch-icon", url: Logo },
   ],
-  applicationName : "ZeroAgent",
-  referrer : "origin",  
+  applicationName: "AI Agents for everyday Business apps - ZeroAgent",
+  referrer: "origin",
   keywords: [
     "AI Agent",
-    "Personalized AI",
-    "Integrations",
+    "Apps", 
     "Task Automation",
-    "Business Tools",
-    "Business Productivity",
-    "Integrations",
-    "Workflow Automation",
+    "Business Apps",
+    "Tools",
+    "Productivity",
+    "Integrations", 
   ],
   authors: [
     { name: "ZeroMagic Labs", url: "https://github.com/teamzeromagic" },
     { name: "ZeroAgent", url: "https://zeroagent.io/" },
   ],
   openGraph: {
-    title: "Personalized AI Agent for Business Tools",
-    description:
-      "Leverage the power of AI to manage tasks across Google Calendar, Slack, and more with our Personalized AI Agents.",
+    title: "AI Agents for everyday Business apps",
+    description: 
+  "Simplify your day-to-day business operations with AI Agents. Connect, manage, and execute tasks across multiple apps in one platform using simple chat prompts. Work smarter by eliminating repetitive work!",    
     url: "https://zeroagent.io/", // Replace with your actual website URL
     siteName: "ZeroAgent",
     images: [
       {
-        url: Thumbnail.src,  
+        url: Thumbnail.src,
         width: 1200,
         height: 630,
         alt: "ZeroAgents in Action",
       },
     ],
+    videos: {
+      url: "https://www.youtube.com/watch?v=wct6bzlSUOs",
+      secureUrl: "https://www.youtube.com/watch?v=wct6bzlSUOs",
+      type: "video/youtube",
+      width: 1280,
+      height: 720,
+    },
   },
   twitter: {
     card: "summary_large_image",
     // site: "@zeromagic", // Replace with your actual Twitter handle
-    title: "Personalised AI Agent - Automate Tasks Across Business Tools",
+    title: "AI Agents for everyday Business apps",
     description:
-      "Experience seamless task automation across business tools with our Personalised AI Agents.",
+  "Simplify your day-to-day business operations with AI Agents. Connect, manage, and execute tasks across multiple apps in one platform using simple chat prompts. Work smarter by eliminating repetitive work!",    
     images: Thumbnail.src, // Replace with the actual image URL
   },
   verification: {
@@ -68,8 +74,12 @@ export const metadata: Metadata = {
   },
   robots: {
     index: true,
-    follow: true,
-  },
+    follow: true,    
+  },     
+  alternates : {
+    canonical : "https://zeroagent.io/"
+  }
+  
 };
 
 export default function RootLayout({
@@ -77,29 +87,56 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
+  
+  const jsonLD =  {
+    "@context": "https://schema.org/",
+    "@type": "Organization",
+    "name": "Zeroagent",
+    "url": "https://zeroagent.io/", 
+    "headline": 'AI Agents for everyday Business apps',
+    "description": 'Simplify your day-to-day business operations with AI Agents. Connect, manage, and execute tasks across multiple apps in one platform using simple chat prompts.',
+  
+    "subjectOf": {
+      "@type": "VideoObject",
+      "name": "Demo: AI Agents for everyday Business app - Zeroagent",
+      "description": "AI Agents that connects across multiple business apps and perform tasks with simple chat prompts", 
+      "thumbnail":Thumbnail.src,
+      "embedUrl": "https://www.youtube.com/watch?v=wct6bzlSUOs",  
+  }
+  }
+
   return (
     <html lang="en" className="dark">
       <head>
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-RQMXKE8FE1"></script>
-    <script 
-     dangerouslySetInnerHTML={{
-      __html: `
+      <script
+        key="structured-data"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLD) }}
+      /> 
+
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-RQMXKE8FE1"                    
+        ></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
          window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
       gtag('config', 'G-RQMXKE8FE1');
       `,
-    }}
-    > 
-    </script>
+          }}
+        ></script>
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
       </body>
-      <GoogleAnalytics gaId="G-RQMXKE8FE1"/>       
+      <GoogleAnalytics gaId="G-RQMXKE8FE1" />
     </html>
   );
 }

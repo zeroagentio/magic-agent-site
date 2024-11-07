@@ -42,7 +42,7 @@ const files = [
 const features = [
   { 
     name: "Agent Connectors",
-    description: "Connect with 10+ integrations and let our agents handle daily tasks.",
+    description: "Connect with 10+ apps and let our agents handle daily tasks.",
     href: "#",
     cta: "Learn more",
     // className: "col-span-6 lg:col-span-3",
@@ -113,7 +113,7 @@ const features = [
   },
   { 
     name: "Agent Activity",
-    description: "Real-time updates from Google Meet, Calendar, Facebook, and other tools.",
+    description: "Real-time updates from Google Meet, Calendar, Facebook, and other apps.",
     href: "#",
     cta: "Learn more",
     className: "col-span-6 lg:col-span-2",
