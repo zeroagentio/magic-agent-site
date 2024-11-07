@@ -68,10 +68,7 @@ export const metadata: Metadata = {
     description:
   "Simplify your day-to-day business operations with AI Agents. Connect, manage, and execute tasks across multiple apps in one platform using simple chat prompts. Work smarter by eliminating repetitive work!",    
     images: Thumbnail.src, // Replace with the actual image URL
-  },
-  verification: {
-    google: "",
-  },
+  }, 
   robots: {
     index: true,
     follow: true,    
