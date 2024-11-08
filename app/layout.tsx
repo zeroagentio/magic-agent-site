@@ -17,14 +17,14 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "ZeroAgent",
+  title: "Zeroagent",
   description: 
-  "Simplify your day-to-day business operations with AI Agents. Connect, manage, and execute tasks across multiple apps in one platform using simple chat prompts. Work smarter by eliminating repetitive work!",    
+  "Simplify your day-to-day business operations with AI Agents for Free. Connect, manage, and execute tasks across multiple apps in one platform using simple chat prompts. Work smarter by eliminating repetitive work!",    
   icons: [
     { rel: "icon", url: Logo },
     { rel: "apple-touch-icon", url: Logo },
   ],
-  applicationName: "AI Agents for everyday Business apps - ZeroAgent",
+  applicationName: "AI Agents for everyday Business apps for Free - Zeroagent",
   referrer: "origin",
   keywords: [
     "AI Agent",
@@ -37,14 +37,14 @@ export const metadata: Metadata = {
   ],
   authors: [
     { name: "ZeroMagic Labs", url: "https://github.com/teamzeromagic" },
-    { name: "ZeroAgent", url: "https://zeroagent.io/" },
+    { name: "Zeroagent", url: "https://zeroagent.io/" },
   ],
   openGraph: {
-    title: "AI Agents for everyday Business apps",
+    title: "AI Agents for everyday Business apps for Free",
     description: 
-  "Simplify your day-to-day business operations with AI Agents. Connect, manage, and execute tasks across multiple apps in one platform using simple chat prompts. Work smarter by eliminating repetitive work!",    
+  "Simplify your day-to-day business operations with AI Agents for Free. Connect, manage, and execute tasks across multiple apps in one platform using simple chat prompts. Work smarter by eliminating repetitive work!",    
     url: "https://zeroagent.io/", // Replace with your actual website URL
-    siteName: "ZeroAgent",
+    siteName: "Zeroagent",
     images: [
       {
         url: Thumbnail.src,
@@ -60,13 +60,13 @@ export const metadata: Metadata = {
       width: 1280,
       height: 720,
     },
-  },
+  }, 
   twitter: {
     card: "summary_large_image",
     // site: "@zeromagic", // Replace with your actual Twitter handle
     title: "AI Agents for everyday Business apps",
     description:
-  "Simplify your day-to-day business operations with AI Agents. Connect, manage, and execute tasks across multiple apps in one platform using simple chat prompts. Work smarter by eliminating repetitive work!",    
+  "Simplify your day-to-day business operations with AI Agents for Free. Connect, manage, and execute tasks across multiple apps in one platform using simple chat prompts. Work smarter by eliminating repetitive work!",    
     images: Thumbnail.src, // Replace with the actual image URL
   }, 
   robots: {
@@ -92,7 +92,7 @@ export default function RootLayout({
     "name": "Zeroagent",
     "url": "https://zeroagent.io/", 
     "headline": 'AI Agents for everyday Business apps',
-    "description": 'Simplify your day-to-day business operations with AI Agents. Connect, manage, and execute tasks across multiple apps in one platform using simple chat prompts.',
+    "description": 'Simplify your day-to-day business operations with AI Agents for Free. Connect, manage, and execute tasks across multiple apps in one platform using simple chat prompts.',
   
     "subjectOf": {
       "@type": "VideoObject",
