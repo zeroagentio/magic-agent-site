@@ -26,8 +26,8 @@ const Header = () => {
         refresh
       />
       <AnimatedGradientTextDemo /> 
-      <h1 className="mt-7 mb-3 bg-gradient-to-br dark:from-white from-black from-30% dark:to-white/40 to-black/40 bg-clip-text py-6 text-5xl font-semibold leading-none tracking-tight text-transparent text-balance sm:text-6xl md:text-7xl lg:text-7xl translate-y-[-1rem] animate-fade-in opacity-1 [--animation-delay:200ms]">
-        AI Agents for everyday business apps 
+      <h1 className="mt-7 mb-3 bg-gradient-to-br dark:from-white from-black from-30% dark:to-white/40 to-black/40 bg-clip-text py-6 text-5xl font-semibold leading-none tracking-tight text-transparent text-balance sm:text-6xl md:text-7xl lg:text-7xl translate-y-[-1rem] animate-fade-in opacity-1 [--animation-delay:200ms]">         
+        Superhuman for Day-to-day business apps
         {/* <br className="hidden md:block" />tasks across business tools. */}
       </h1>
 
