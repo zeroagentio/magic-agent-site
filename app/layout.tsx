@@ -54,8 +54,8 @@ export const metadata: Metadata = {
       },
     ],
     videos: {
-      url: "https://www.youtube.com/watch?v=wct6bzlSUOs",
-      secureUrl: "https://www.youtube.com/watch?v=wct6bzlSUOs",
+      url: "https://www.youtube.com/watch?v=z-XNOPTabIk",
+      secureUrl: "https://www.youtube.com/watch?v=z-XNOPTabIk",
       type: "video/youtube",
       width: 1280,
       height: 720,
@@ -99,7 +99,7 @@ export default function RootLayout({
       "name": "Demo: AI Agents for everyday Business app - Zeroagent",
       "description": "AI Agents that connects across multiple business apps and perform tasks with simple chat prompts", 
       "thumbnail":Thumbnail.src,
-      "embedUrl": "https://www.youtube.com/watch?v=wct6bzlSUOs",  
+      "embedUrl": "https://www.youtube.com/watch?v=z-XNOPTabIk",  
   }
   }
 

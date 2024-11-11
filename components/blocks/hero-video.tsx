@@ -8,14 +8,14 @@ export function HeroVideoDialogDemo() {
       <HeroVideoDialog
         className="dark:hidden block"
         animationStyle="from-center"
-        videoSrc="https://www.youtube.com/embed/wct6bzlSUOs"    
+        videoSrc="https://www.youtube.com/embed/z-XNOPTabIk"    
         thumbnailSrc={THUMBNAIL}
         thumbnailAlt="Hero Video"
       />
       <HeroVideoDialog
         className="hidden dark:block"
         animationStyle="from-center"
-        videoSrc="https://www.youtube.com/embed/wct6bzlSUOs" 
+        videoSrc="https://www.youtube.com/embed/z-XNOPTabIk" 
         thumbnailSrc={THUMBNAIL}
         thumbnailAlt="Hero Video"
       />
