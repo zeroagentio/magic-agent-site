@@ -32,6 +32,8 @@ For a better experience, while using our Service, we may require you to provide 
      
     We allow anyone to delete their account as well as any Chat History which might contain personal information. Deleting your account also deletes or anonymizes all personal data we might have collected (except for things we must keep for other compliance, like billing records in order to pay taxes, etc.). 
 
+    <br />
+ 
 - **Survey Information**
     We collect survery information submitted through surveys or from the content of any testimonials.
 
