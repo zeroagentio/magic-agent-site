@@ -122,36 +122,48 @@ This Service may contain links to other sites. If you click on a third-party lin
 
 ## **Privacy & data governance**
 
+<br />
+
 - **Data Retention Policy**
 
     The _Service Provider_ will retain User Provided Data (email address, access token) for as long as they are necessary to provide the services for which they are collected. Access token maybe be refreshed periodically, but the initial data collected will remain encrypted and stored only for the duration of the user's active engagement with the platform. Please note that some or all of the User Provided Data may be required in order for the Application to function properly.
 
+<br />
+
 -  **Data archival/removal Policy**
 
     The _Service Provider_ follow strict archival and removal practices. User access tokens are deleted immediately upon the revoking or when a user disconnects from a *Data Processors* (such as Slack, Google Meet), and user email addresses are also removed. We don't archive any user data.
+
+<br />
 
 - **Data Deletion Policy and Procedure** 
     
     When a user requests deletion of their personal data, we first verify the user's identity to confirm authorization. Our _Application_ then identifies and locates all instances of the user's data across our systems, including databases and backups. The user’s data is securely deleted, and any instances in backups are purged in the next scheduled backup cycle. Once deletion is complete, a confirmation is sent to the user.
 
 
+<br />
+
 -  **Data Storage Policy**
     
     The _Service Provider_ stores all email addresses and access token in an encrypted format within Azure Cloud Database Services, which meets industry standards for data protection and encryption. Access tokens are managed in a way that limits access only to authorized personnel.
+
+<br />
 
 -  **LLM Data Tendency Policy**
     
     The _Service Provider_ operate and use Azure Open AI services in a Provisioned Environment. No sensitive specific data or access tokens are stored persistently within the LLM. The requests are processed in a manner that respects data confidentiality and privacy.
 
+<br />
+
 -  **LLM Data Residency Policy**
     
     All data processed by GPT-4 is subject to OpenAI's data residency policies. We take steps to minimize data exposure by limiting sensitive information provided to the LLM
 
+<br />
+
 -  **LLM Retention Settings**
     
     The _Service Provider_ don't store user specific queries or data within the LLM. Data submitted to GPT-4 is processed in real-time and is not retained by OpenAI for the model improvement or training purposes. 
-    
-<br />
 
 <!-- If you'd like the _Service Provider_ to delete User Provided Data that you have provided via the Application, please contact them at support@zeroagent.io and we will respond in a reasonable time.  -->
 
