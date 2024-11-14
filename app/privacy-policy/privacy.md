@@ -126,7 +126,7 @@ This Service may contain links to other sites. If you click on a third-party lin
 
 - **Data Retention Policy**
 
-    The _Service Provider_ will retain User Provided Data (email address, access token) for as long as they are necessary to provide the services for which they are collected. Access token maybe be refreshed periodically, but the initial data collected will remain encrypted and stored only for the duration of the user's active engagement with the platform. Please note that some or all of the User Provided Data may be required in order for the Application to function properly.
+    The _Service Provider_ will retain User Provided Data (email address, access token) for as long as they are necessary to provide the services for which they are collected. Access token maybe be refreshed periodically, but the initial data collected will remain encrypted and stored only for the duration of the user's active engagement with the platform. Note that certain User Provided Data is essential for the Application to function correctly.
 
 <br />
 
@@ -151,20 +151,22 @@ This Service may contain links to other sites. If you click on a third-party lin
 
 -  **LLM Data Tendency Policy**
     
-    The _Service Provider_ operate and use Azure Open AI services in a Provisioned Environment. No sensitive specific data or access tokens are stored persistently within the LLM. The requests are processed in a manner that respects data confidentiality and privacy.
+   The _Service Provider_ operates and uses Azure OpenAI services in a Provisioned Environment. No sensitive specific data or access tokens are stored persistently within the LLM. Any data requests are processed in real-time with strict attention to confidentiality and privacy. 
+
+    <br />
+   <u>NOTE:</u> THE SERVICE PROVIDER DOES NOT RETAIN USER DATA OBTAINED THROUGH 'GOOGLE WORKSPACE' APIs OR OTHER 'DATA PROCESSOR' APIs TO DEVELOP, IMPROVE, OR TRAIN NON-PERSONALISED AI/ML MODELS.
+ 
+    <br />
+    <br />
+    
+   OUR APPLICATION ONLY TRANSFERS THE API RESPONSE DATA OBTAINED FROM 'GOOGLE WORKSPACE' APIS OR OTHER 'DATA PROCESSOR' APIS TO AZURE OPENAI’S GPT-4 SERVICE FOR THE SOLE PURPOSE OF GENERATING A USER-SPECIFIC RESPONSE. THIS DATA TRANSFER IS PROCESSED IN REAL-TIME, AND NO DATA OR RESPONSES ARE NOT RETAINED BY 'OPENAI' FOR THE MODEL IMPROVEMENT OR TRAINING PURPOSES AFTER PROCESSING. WE DON'T TRANSFER ANY SENSITIVE DATA, SUCH AS AUTHENTICATION TOKENS, PASSWORDS, OR PAYMENT INFORMATION, TO THIRD-PARTY AI TOOLS.
 
 <br />
 
 -  **LLM Data Residency Policy**
     
     All data processed by GPT-4 is subject to OpenAI's data residency policies. We take steps to minimize data exposure by limiting sensitive information provided to the LLM
-
-<br />
-
--  **LLM Retention Settings**
-    
-    The _Service Provider_ don't store user specific queries or data within the LLM. Data submitted to GPT-4 is processed in real-time and is not retained by OpenAI for the model improvement or training purposes. 
-
+ 
 <!-- If you'd like the _Service Provider_ to delete User Provided Data that you have provided via the Application, please contact them at support@zeroagent.io and we will respond in a reasonable time.  -->
 
 <!-- The _Service Provider_ will retain User Provided data for as long as you use the Application and for a reasonable time thereafter. The _Service Provider_ will retain Automatically Collected information for up to 24 months and thereafter may store it in aggregate.  -->
