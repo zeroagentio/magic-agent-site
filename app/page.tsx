@@ -2,7 +2,7 @@ import { BannerCard } from "@/components/blocks/banner-card";
 import CTA from "@/components/blocks/cta";
 import CustomDescription from "@/components/blocks/custom-description";
 import CustomText from "@/components/blocks/custom-text";
-import { FeaturesBento } from "@/components/blocks/features-bento-grid";
+import { ExtraFeaturesBento, FeaturesBento } from "@/components/blocks/features-bento-grid";
 import Footer from "@/components/blocks/footer";
 import Header from "@/components/blocks/header";   
 import { HeroVideoDialogDemo } from "@/components/blocks/hero-video";
@@ -23,6 +23,8 @@ export default function Home() {
       <CustomText title={"AI Agents, Business Superheroes"} />
       <CustomDescription title={"Connect apps, Automate tasks and stay updated with AI Agents"} />      
       <FeaturesBento />
+      <br />
+      <ExtraFeaturesBento />
       </div>   
       {/* <div className="mt-20">
       <CustomText title={"AI Agents, Business Superheroes"} />

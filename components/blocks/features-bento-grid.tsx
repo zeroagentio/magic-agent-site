@@ -7,6 +7,9 @@ import ShineBorder from "../magicui/shine-border";
 import Image from "next/image";
 import Workflow from "@/app/assets/workflow.png";
 import { ShimmerHumanLoopButton } from "./ripple-humanloop";
+import { BellIcon, CalendarIcon, GlobeIcon } from "lucide-react";
+import HumanInLoop from "@/app/assets/human-in-loop.png";
+
 
 const files = [
   {
@@ -39,10 +42,56 @@ const files = [
   },
 ];
 
-const features = [
+const features2 = [
+  {
+    // Icon: CalendarIcon,
+    name: "Built-in User Review",
+    description: "Displays review interface for app function before executing",
+    href: "/",
+    cta: "Learn more",
+    background: (      
+      <figure
+      className={cn(
+        "relative  cursor-pointer rounded-2xl p-4", 
+        // "[mask-image:linear-gradient(to_top,transparent_10%,#000_100%)]"     
+       )}>
+        <div className="flex flex-col overflow-hidden px-10 pb-10">
+      <Image alt="HumanInLoop" src={HumanInLoop} className="[mask-image:linear-gradient(to_top,transparent_0%,#000_10%)] items-center absolute opacity-65" />,
+      </div>
+      </figure>
+    ),
+    className: "lg:row-start-1 lg:row-end-3 lg:col-start-2 lg:col-end-4",
+  },
+  {
+    // Icon: CalendarIcon,
+    name: "Instant Decision Making",
+    description: "Access real-time data from multiple apps",
+    href: "/",
+    cta: "Learn more",
+    background: (
+    <AnimatedAgentList className="absolute  h-[600px] w-full border-none transition-all duration-300 ease-out [mask-image:linear-gradient(to_top,transparent_10%,#000_100%)] group-hover:scale-105" />
+    ),
+    className: "lg:col-start-1 lg:col-end-2  lg:row-start-1 lg:row-end-3",
+  },
+  // {
+  //   Icon: GlobeIcon,
+  //   name: "Authenticate with 10+ apps",
+  //   description: "Supports 100+ languages and counting.",
+  //   href: "/",
+  //   cta: "Learn more",
+  //   // background: <Image alt="" src="" className="absolute -right-20 -top-20 opacity-60" />,
+  //   background: (
+  //     <AnimatedAgentList className="absolute  h-[300px] w-full border-none transition-all duration-300 ease-out [mask-image:linear-gradient(to_top,transparent_10%,#000_100%)] group-hover:scale-105" />
+  //   ),
+  //   className: "lg:col-start-1 lg:col-end-2 lg:row-start-2 lg:row-end-3",
+  // }
+];
+
+const features = [ 
+
   { 
-    name: "Agent Connectors",
-    description: "Connect with 10+ apps and let our agents handle daily tasks.",
+    name: "Connect to Your Business Ecosystem",
+    description: "Integrate with 10+ business apps to automate daily tasks",
     href: "#",
     cta: "Learn more",
     // className: "col-span-6 lg:col-span-3",
@@ -51,16 +100,8 @@ const features = [
       <ToolsFlow className="absolute h-[300px] border-none transition-all duration-300 ease-out [mask-image:linear-gradient(to_top,transparent_10%,#000_100%)] group-hover:scale-105" />
     ),
   },
-  { 
-    name: "Human In Loop",
-    description: "Maintain control over automated actions",
-    href: "#",
-    cta: "Learn more",
-    className: "col-span-6 lg:col-span-1",
-    background: ( 
-        <ShimmerHumanLoopButton />    
-    ),
-  },
+
+
   // {
   //   Icon: CalendarIcon,
   //   name: "Save your files",
@@ -78,8 +119,8 @@ const features = [
   //   ),
   // },
   { 
-    name: "Task Automation",
-    description: "Type a prompt, let Agents handle the rest",
+    name: "Execute 100+ Actions",
+    description: "Type a prompt, our Agents execute the rest",
     href: "#",
     cta: "Learn more",
     className: "col-span-6 lg:col-span-1",
@@ -111,22 +152,45 @@ const features = [
       </Marquee>
     ),
   },
-  { 
-    name: "Agent Activity",
-    description: "Real-time updates from Google Meet, Calendar, Facebook, and other apps.",
-    href: "#",
-    cta: "Learn more",
-    className: "col-span-6 lg:col-span-2",
-    background: (
-      <AnimatedAgentList className="absolute  h-[300px] w-full border-none transition-all duration-300 ease-out [mask-image:linear-gradient(to_top,transparent_10%,#000_100%)] group-hover:scale-105" />
-    ),
-  },
+
+  // { 
+  //   name: "Human In Loop",
+  //   description: "Maintain control over automated actions",
+  //   href: "#",
+  //   cta: "Learn more",
+  //   className: "col-span-6 lg:col-span-1",
+  //   background: ( 
+  //       <ShimmerHumanLoopButton />    
+  //   ),
+  // },
+
+  // { 
+  //   name: "Agent Activity",
+  //   description: "Real-time updates from Google Meet, Calendar, Facebook, and other apps.",
+  //   href: "#",
+  //   cta: "Learn more",
+  //   className: "col-span-6 lg:col-span-2",
+  //   background: (
+  //     <AnimatedAgentList className="absolute  h-[300px] w-full border-none transition-all duration-300 ease-out [mask-image:linear-gradient(to_top,transparent_10%,#000_100%)] group-hover:scale-105" />
+  //   ),
+  // },
 ];
 
 export function FeaturesBento() {
   return (
     <BentoGrid>
       {features.map((feature, idx) => (
+        <BentoCard key={idx} {...feature} />
+      ))}
+    </BentoGrid>
+  );
+}
+
+
+export function ExtraFeaturesBento() {
+  return (
+    <BentoGrid>
+      {features2.map((feature, idx) => (
         <BentoCard key={idx} {...feature} />
       ))}
     </BentoGrid>

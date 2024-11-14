@@ -31,7 +31,7 @@ let notifications = [
       color: "#722F77",
     },
     {
-      name: "Email Notifications",
+      name: "Email Activity",
       description: "Important email updates and alerts",
       icon: GMail,
       color: "#FFC107",
@@ -49,7 +49,7 @@ let notifications = [
       color: "#34A853",
     },
     {
-      name: "Facebook Alerts",
+      name: "Facebook Activity",
       description: "Social media updates and notifications",
       icon: Facebook,
       color: "#4267B2",
