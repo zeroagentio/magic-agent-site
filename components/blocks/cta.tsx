@@ -1,6 +1,6 @@
 import { ChevronRight, HeartHandshake } from "lucide-react";
 import { ScrollTools } from "./scroll-tools";
-import { WAITINGLIST_FORM } from "@/lib/utils";
+import { MY_APP } from "@/lib/utils";
 
 const CTA = () => {
   return (
@@ -19,10 +19,11 @@ const CTA = () => {
         </p>
         <a
           className="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground h-10 group mt-4 rounded-[2rem] px-6"
-          href={WAITINGLIST_FORM}
+          href={MY_APP}
           target="_blank"
         >
-          Join the waiting list 
+          Start Free Today
+          {/* Join the waiting list  */}
         <ChevronRight className="ml-1 size-4 transition-transform duration-300 ease-in-out group-hover:translate-x-0.5" />
         </a>
       </div>

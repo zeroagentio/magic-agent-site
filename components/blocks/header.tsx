@@ -2,17 +2,17 @@
 import { RainbowButton } from "@/components/magicui/rainbow-button"; 
 import Particles from "../magicui/particles";
 import { AnimatedGradientTextDemo } from "./animated-text";
-import { WAITINGLIST_FORM } from "@/lib/utils";
+import { MY_APP } from "@/lib/utils";
 
 export function RainbowButtonDemo() {
 
   const handleClick = () => {
-    window.open(WAITINGLIST_FORM, '_blank'); // Open in a new tab
+    window.open(MY_APP, '_blank'); // Open in a new tab
   };
 
   return <RainbowButton 
   onClick={handleClick}
-  className="font-medium">Join the waiting list</RainbowButton>;
+  className="font-medium">Get Started Free</RainbowButton>;
 }
  
 const Header = () => {

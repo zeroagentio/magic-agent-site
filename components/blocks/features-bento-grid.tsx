@@ -47,7 +47,7 @@ const features2 = [
     // Icon: CalendarIcon,
     name: "Built-in User Review",
     description: "Displays review interface for app function before executing",
-    href: "/",
+    href: "https://docs.zeroagent.io/human-in-loop",
     cta: "Learn more",
     background: (      
       <figure
@@ -62,68 +62,11 @@ const features2 = [
     ),
     className: "lg:row-start-1 lg:row-end-3 lg:col-start-2 lg:col-end-4",
   },
-  {
-    // Icon: CalendarIcon,
-    name: "Instant Decision Making",
-    description: "Access real-time data from multiple apps",
-    href: "/",
-    cta: "Learn more",
-    background: (
-    <AnimatedAgentList className="absolute  h-[600px] w-full border-none transition-all duration-300 ease-out [mask-image:linear-gradient(to_top,transparent_10%,#000_100%)] group-hover:scale-105" />
-    ),
-    className: "lg:col-start-1 lg:col-end-2  lg:row-start-1 lg:row-end-3",
-  },
-  // {
-  //   Icon: GlobeIcon,
-  //   name: "Authenticate with 10+ apps",
-  //   description: "Supports 100+ languages and counting.",
-  //   href: "/",
-  //   cta: "Learn more",
-  //   // background: <Image alt="" src="" className="absolute -right-20 -top-20 opacity-60" />,
-  //   background: (
-  //     <AnimatedAgentList className="absolute  h-[300px] w-full border-none transition-all duration-300 ease-out [mask-image:linear-gradient(to_top,transparent_10%,#000_100%)] group-hover:scale-105" />
-  //   ),
-  //   className: "lg:col-start-1 lg:col-end-2 lg:row-start-2 lg:row-end-3",
-  // }
-];
-
-const features = [ 
-
-  { 
-    name: "Connect to Your Business Ecosystem",
-    description: "Integrate with 10+ business apps to automate daily tasks",
-    href: "#",
-    cta: "Learn more",
-    // className: "col-span-6 lg:col-span-3",
-    className: "col-span-6 lg:col-span-2",
-    background: (  
-      <ToolsFlow className="absolute h-[300px] border-none transition-all duration-300 ease-out [mask-image:linear-gradient(to_top,transparent_10%,#000_100%)] group-hover:scale-105" />
-    ),
-  },
-
-
-  // {
-  //   Icon: CalendarIcon,
-  //   name: "Save your files",
-  //   description: "We automatically save your files as you type.",
-  //   className: "col-span-3 lg:col-span-1",
-  //   href: "#",
-  //   cta: "Learn more",
-  //   background: (
-  //       <></>
-  //   //   <Calendar
-  //   //     mode="single"
-  //   //     selected={new Date(2022, 4, 11, 0, 0, 0)}
-  //   //     className="absolute right-0 top-10 origin-top rounded-md border transition-all duration-300 ease-out [mask-image:linear-gradient(to_top,transparent_40%,#000_100%)] group-hover:scale-105"
-  //   //   />
-  //   ),
-  // },
   { 
     name: "Execute 100+ Actions",
     description: "Type a prompt, our Agents execute the rest",
-    href: "#",
+    href: "https://docs.zeroagent.io/tools/connection",
     cta: "Learn more",
-    className: "col-span-6 lg:col-span-1",
     background: (
       <Marquee
         pauseOnHover
@@ -151,7 +94,101 @@ const features = [
         ))}
       </Marquee>
     ),
+    className: "lg:col-start-1 lg:col-end-2  lg:row-start-1 lg:row-end-2",
   },
+  {
+    Icon: GlobeIcon,
+    name: "Instant Decision Making",
+    description: "Access real-time data from multiple apps",
+    href: "https://docs.zeroagent.io/overview",
+    cta: "Learn more",
+    // background: <Image alt="" src="" className="absolute -right-20 -top-20 opacity-60" />,
+    background: (
+      <AnimatedAgentList className="absolute  h-[300px] w-full border-none transition-all duration-300 ease-out [mask-image:linear-gradient(to_top,transparent_10%,#000_100%)] group-hover:scale-105" />
+    ),
+    className: "lg:col-start-1 lg:col-end-2 lg:row-start-2 lg:row-end-3",
+  }
+];
+
+const features = [ 
+
+  { 
+    name: "Connect to Your Business Ecosystem",
+    description: "Integrate with 10+ business apps to automate daily tasks",
+    href: "https://docs.zeroagent.io/tools/introduction",
+    cta: "Learn more",
+    // className: "col-span-6 lg:col-span-3",
+    className: "col-span-6 lg:col-span-2",
+    background: (  
+      <ToolsFlow className="absolute h-[300px] border-none transition-all duration-300 ease-out [mask-image:linear-gradient(to_top,transparent_10%,#000_100%)] group-hover:scale-105" />
+    ),
+  },
+
+
+  // {
+  //   Icon: CalendarIcon,
+  //   name: "Save your files",
+  //   description: "We automatically save your files as you type.",
+  //   className: "col-span-3 lg:col-span-1",
+  //   href: "#",
+  //   cta: "Learn more",
+  //   background: (
+  //       <></>
+  //   //   <Calendar
+  //   //     mode="single"
+  //   //     selected={new Date(2022, 4, 11, 0, 0, 0)}
+  //   //     className="absolute right-0 top-10 origin-top rounded-md border transition-all duration-300 ease-out [mask-image:linear-gradient(to_top,transparent_40%,#000_100%)] group-hover:scale-105"
+  //   //   />
+  //   ),
+  // },
+
+  {
+    // Icon: CalendarIcon,
+    name: "Prompt to Actions",
+    description: "Turn prompts into automated tasks instantly",
+    href: "https://docs.zeroagent.io/quickstart",
+    cta: "Learn more",
+    background: (
+        <ShimmerHumanLoopButton />    
+    // <AnimatedAgentList className="absolute  h-[600px] w-full border-none transition-all duration-300 ease-out [mask-image:linear-gradient(to_top,transparent_10%,#000_100%)] group-hover:scale-105" />
+    ),
+    className: "col-span-6 lg:col-span-1",
+  },
+
+  // { 
+  //   name: "Execute 100+ Actions",
+  //   description: "Type a prompt, our Agents execute the rest",
+  //   href: "#",
+  //   cta: "Learn more",
+  //   className: "col-span-6 lg:col-span-1",
+    // background: (
+    //   <Marquee
+    //     pauseOnHover
+    //     className="absolute top-10 [--duration:30s] [mask-image:linear-gradient(to_top,transparent_10%,#000_100%)] "
+    //   >
+    //     {files.map((f, idx) => (
+    //       <figure
+    //         key={idx}
+    //         className={cn(
+    //           "relative w-32 cursor-pointer overflow-hidden rounded-xl border p-4",
+    //           "border-gray-950/[.1] bg-gray-950/[.01] hover:bg-gray-950/[.05]",
+    //           "dark:border-gray-50/[.1] dark:bg-gray-50/[.10] dark:hover:bg-gray-50/[.15]",
+    //           "transform-gpu blur-[1px] transition-all duration-300 ease-out hover:blur-none",
+    //         )}
+    //       >
+    //         <div className="flex flex-row items-center gap-2">
+    //           <div className="flex flex-col">
+    //             <figcaption className="text-sm font-medium dark:text-white ">
+    //               {f.name}
+    //             </figcaption>
+    //           </div>
+    //         </div>
+    //         <blockquote className="mt-2 text-xs">{f.body}</blockquote>
+    //       </figure>
+    //     ))}
+    //   </Marquee>
+  //   ),
+  // },
 
   // { 
   //   name: "Human In Loop",
