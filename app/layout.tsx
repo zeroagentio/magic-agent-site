@@ -18,8 +18,8 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "Zeroagent",
-  description: 
-  "Simplify your day-to-day business operations with AI Agents for Free. Connect, manage, and execute tasks across multiple apps in one platform using simple chat prompts. Work smarter by eliminating repetitive work!",    
+  description:
+    "Simplify your day-to-day business operations with AI Agents for Free. Connect, manage, and execute tasks across multiple apps in one platform using simple chat prompts. Work smarter by eliminating repetitive work!",
   icons: [
     { rel: "icon", url: Logo },
     { rel: "apple-touch-icon", url: Logo },
@@ -28,21 +28,21 @@ export const metadata: Metadata = {
   referrer: "origin",
   keywords: [
     "AI Agent",
-    "Apps", 
+    "Apps",
     "Task Automation",
     "Business Apps",
     "Tools",
     "Productivity",
-    "Integrations", 
+    "Integrations",
   ],
   authors: [
-    { name: "ZeroMagic Labs", url: "https://github.com/teamzeromagic" },
+    { name: "ZeroMagic Labs", url: "https://github.com/zeroagentio" },
     { name: "Zeroagent", url: "https://zeroagent.io/" },
   ],
   openGraph: {
     title: "AI Agents for everyday Business apps for Free",
-    description: 
-  "Simplify your day-to-day business operations with AI Agents for Free. Connect, manage, and execute tasks across multiple apps in one platform using simple chat prompts. Work smarter by eliminating repetitive work!",    
+    description:
+      "Simplify your day-to-day business operations with AI Agents for Free. Connect, manage, and execute tasks across multiple apps in one platform using simple chat prompts. Work smarter by eliminating repetitive work!",
     url: "https://zeroagent.io/", // Replace with your actual website URL
     siteName: "Zeroagent",
     images: [
@@ -60,23 +60,22 @@ export const metadata: Metadata = {
       width: 1280,
       height: 720,
     },
-  }, 
+  },
   twitter: {
     card: "summary_large_image",
     // site: "@zeromagic", // Replace with your actual Twitter handle
     title: "AI Agents for everyday Business apps",
     description:
-  "Simplify your day-to-day business operations with AI Agents for Free. Connect, manage, and execute tasks across multiple apps in one platform using simple chat prompts. Work smarter by eliminating repetitive work!",    
+      "Simplify your day-to-day business operations with AI Agents for Free. Connect, manage, and execute tasks across multiple apps in one platform using simple chat prompts. Work smarter by eliminating repetitive work!",
     images: Thumbnail.src, // Replace with the actual image URL
-  }, 
+  },
   robots: {
     index: true,
-    follow: true,    
-  },     
-  alternates : {
-    canonical : "https://zeroagent.io/"
-  }
-  
+    follow: true,
+  },
+  alternates: {
+    canonical: "https://zeroagent.io/",
+  },
 };
 
 export default function RootLayout({
@@ -84,37 +83,37 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-
-  
-  const jsonLD =  {
+  const jsonLD = {
     "@context": "https://schema.org/",
     "@type": "Organization",
-    "name": "Zeroagent",
-    "url": "https://zeroagent.io/", 
-    "headline": 'AI Agents for everyday Business apps',
-    "description": 'Simplify your day-to-day business operations with AI Agents for Free. Connect, manage, and execute tasks across multiple apps in one platform using simple chat prompts.',
-  
-    "subjectOf": {
+    name: "Zeroagent",
+    url: "https://zeroagent.io/",
+    headline: "AI Agents for everyday Business apps",
+    description:
+      "Simplify your day-to-day business operations with AI Agents for Free. Connect, manage, and execute tasks across multiple apps in one platform using simple chat prompts.",
+
+    subjectOf: {
       "@type": "VideoObject",
-      "name": "Demo: AI Agents for everyday Business app - Zeroagent",
-      "description": "AI Agents that connects across multiple business apps and perform tasks with simple chat prompts", 
-      "thumbnail":Thumbnail.src,
-      "embedUrl": "https://www.youtube.com/watch?v=z-XNOPTabIk",  
-  }
-  }
+      name: "Demo: AI Agents for everyday Business app - Zeroagent",
+      description:
+        "AI Agents that connects across multiple business apps and perform tasks with simple chat prompts",
+      thumbnail: Thumbnail.src,
+      embedUrl: "https://www.youtube.com/watch?v=z-XNOPTabIk",
+    },
+  };
 
   return (
     <html lang="en" className="dark">
       <head>
-      <script
-        key="structured-data"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLD) }}
-      /> 
+        <script
+          key="structured-data"
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLD) }}
+        />
 
         <script
           async
-          src="https://www.googletagmanager.com/gtag/js?id=G-RQMXKE8FE1"                    
+          src="https://www.googletagmanager.com/gtag/js?id=G-RQMXKE8FE1"
         ></script>
         <script
           dangerouslySetInnerHTML={{
