@@ -23,11 +23,12 @@ const Footer = () => {
                 alt="zeromagic"
               />
               <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-                ZeroAgent
+                Zeroagent
               </span>
             </div>
             <p className="max-w-xs text-gray-200">
-              AI Agents for everyday Business apps
+              Next-Gen AI Project Manager
+              {/* AI Agents for everyday Business apps */}
             </p>
           </div>
           <div className="grid grid-cols-1 gap-8 sm:gap-10 sm:grid-cols-3">
