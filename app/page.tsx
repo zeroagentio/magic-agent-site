@@ -9,6 +9,14 @@ import { HeroVideoDialogDemo } from "@/components/blocks/hero-video";
 import Navbar from "@/components/blocks/navbar"; 
 import { WorkflowCard } from "@/components/blocks/workflow-card";
 
+import mixpanel from "mixpanel-browser";
+
+mixpanel.init('87b1ee5af8f55762dea98975d8ba744f', {
+  debug: false,
+  track_pageview: true,
+  persistence: "localStorage",
+});
+
 export default function Home() {
   return (
     <> 
