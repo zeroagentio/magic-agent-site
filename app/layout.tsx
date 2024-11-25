@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     { rel: "icon", url: Logo },
     { rel: "apple-touch-icon", url: Logo },
   ],
-  applicationName: "Next-Gen AI Project Manager for Free - Zeroagent",
+  applicationName: "Next-Gen AI Work Assistant for Free - Zeroagent",
   referrer: "origin",
   keywords: [
     "AI Agent",
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     { name: "Zeroagent", url: "https://zeroagent.io/" },
   ],
   openGraph: {
-    title: "Next-Gen AI Project Manager for Free",
+    title: "Next-Gen AI Work Assistant for Free",
     description:
       "Simplify your day-to-day business operations with AI Agents for Free. Connect, manage, and execute tasks across multiple apps in one platform using simple chat prompts. Work smarter by eliminating repetitive work!",
     url: "https://zeroagent.io/", // Replace with your actual website URL
@@ -64,7 +64,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     // site: "@zeromagic", // Replace with your actual Twitter handle
-    title: "Next-Gen AI Project Manager",
+    title: "Next-Gen AI Work Assistant",
     description:
       "Simplify your day-to-day business operations with AI Agents for Free. Connect, manage, and execute tasks across multiple apps in one platform using simple chat prompts. Work smarter by eliminating repetitive work!",
     images: Thumbnail.src, // Replace with the actual image URL
@@ -88,7 +88,7 @@ export default function RootLayout({
     "@type": "Organization",
     name: "Zeroagent",
     url: "https://zeroagent.io/",
-    headline: "Next-Gen AI Project Manager",
+    headline: "Next-Gen AI Work Assistant",
     description:
       "Simplify your day-to-day business operations with AI Agents for Free. Connect, manage, and execute tasks across multiple apps in one platform using simple chat prompts.",
 

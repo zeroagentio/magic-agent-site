@@ -27,7 +27,7 @@ const Footer = () => {
               </span>
             </div>
             <p className="max-w-xs text-gray-200">
-              Next-Gen AI Project Manager
+              Next-Gen AI Work Assistant
               {/* AI Agents for everyday Business apps */}
             </p>
           </div>
