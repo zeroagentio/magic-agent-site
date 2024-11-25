@@ -58,6 +58,7 @@ Please note that the Application utilizes third-party services that have their o
 <br />
 
 - [Google Analytics for Firebase](https://firebase.google.com/support/privacy)
+- [Mixpanel](https://mixpanel.com/legal/privacy-policy/)
 
 <br />
 
