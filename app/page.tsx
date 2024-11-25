@@ -20,7 +20,7 @@ export default function Home() {
   if (MIXPANEL_ENABLED) {
 
     mixpanel.init('87b1ee5af8f55762dea98975d8ba744f', {
-      debug: true,
+      debug: false,
       track_pageview: true,
       persistence: "localStorage",
     }); 
