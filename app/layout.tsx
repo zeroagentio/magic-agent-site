@@ -101,6 +101,7 @@ export default function RootLayout({
       embedUrl: "https://www.youtube.com/watch?v=z-XNOPTabIk",
     },
   };
+  
 
   return (
     <html lang="en" className="dark">
