@@ -17,7 +17,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Zeroagent",
+  title: "Next-Gen AI Work Assistant for Free - Zeroagent",
   description:
     "Simplify your day-to-day business operations with AI Agents for Free. Connect, manage, and execute tasks across multiple apps in one platform using simple chat prompts. Work smarter by eliminating repetitive work!",
   icons: [
