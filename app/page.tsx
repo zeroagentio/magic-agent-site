@@ -12,7 +12,7 @@ import { WorkflowCard } from "@/components/blocks/workflow-card";
 import mixpanel from "mixpanel-browser";
 
 mixpanel.init('87b1ee5af8f55762dea98975d8ba744f', {
-  debug: false,
+  debug: true,
   track_pageview: true,
   persistence: "localStorage",
 });
