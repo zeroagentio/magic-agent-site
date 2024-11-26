@@ -30,6 +30,8 @@ export const metadata: Metadata = {
     "AI Agent",
     "Apps",
     "Task Automation",
+    "Work Assistant",
+    'Next-Gen AI',
     "Business Apps",
     "Tools",
     "Productivity",
