@@ -90,7 +90,7 @@ export default function RootLayout({
     "@type": "Organization",
     name: "Zeroagent",
     url: "https://zeroagent.io/",
-    headline: "Next-Gen AI Work Assistant",
+    headline: "Next-Gen AI Work Assistant - Zeroagent",
     description:
       "Simplify your day-to-day business operations with AI Agents for Free. Connect, manage, and execute tasks across multiple apps in one platform using simple chat prompts.",
 
@@ -99,7 +99,7 @@ export default function RootLayout({
       name: "Demo: AI Agents for everyday Business app - Zeroagent",
       description:
         "AI Agents that connects across multiple business apps and perform tasks with simple chat prompts",
-      thumbnail: Thumbnail.src,
+      thumbnail: 'https://firebasestorage.googleapis.com/v0/b/zeromagicsite.appspot.com/o/zeroagent-nextgen-thumbnail.png?alt=media&token=81f32d08-f27d-45ed-9342-0632d8862941', //Thumbnail.src,
       embedUrl: "https://www.youtube.com/watch?v=z-XNOPTabIk",
     },
   };
