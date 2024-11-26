@@ -40,14 +40,14 @@ export const metadata: Metadata = {
     { name: "Zeroagent", url: "https://zeroagent.io/" },
   ],
   openGraph: {
-    title: "Next-Gen AI Work Assistant for Free",
+    title: "Next-Gen AI Work Assistant for Free - Zeroagent",
     description:
       "Simplify your day-to-day business operations with AI Agents for Free. Connect, manage, and execute tasks across multiple apps in one platform using simple chat prompts. Work smarter by eliminating repetitive work!",
     url: "https://zeroagent.io/", // Replace with your actual website URL
     siteName: "Zeroagent",
     images: [
       {
-        url: Thumbnail.src,
+        url: 'https://firebasestorage.googleapis.com/v0/b/zeromagicsite.appspot.com/o/zeroagent-nextgen-thumbnail.png?alt=media&token=81f32d08-f27d-45ed-9342-0632d8862941', // Thumbnail.src,
         width: 1200,
         height: 630,
         alt: "ZeroAgents in Action",
@@ -64,10 +64,10 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     // site: "@zeromagic", // Replace with your actual Twitter handle
-    title: "Next-Gen AI Work Assistant",
+    title: "Next-Gen AI Work Assistant for Free - Zeroagent",
     description:
       "Simplify your day-to-day business operations with AI Agents for Free. Connect, manage, and execute tasks across multiple apps in one platform using simple chat prompts. Work smarter by eliminating repetitive work!",
-    images: Thumbnail.src, // Replace with the actual image URL
+    images: 'https://firebasestorage.googleapis.com/v0/b/zeromagicsite.appspot.com/o/zeroagent-nextgen-thumbnail.png?alt=media&token=81f32d08-f27d-45ed-9342-0632d8862941' //Thumbnail.src, 
   },
   robots: {
     index: true,
