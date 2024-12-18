@@ -222,5 +222,3 @@ By using the Application, you are giving your consent to the _Service Provider_ 
 If you have any questions regarding privacy while using the Application, or have questions about the practices, please contact the _Service Provider_ via email at [support@zeroagent.io](mailto:support@zeroagent.io).
 
 <br />
-
-* * * 

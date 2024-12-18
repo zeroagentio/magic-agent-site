@@ -106,7 +106,7 @@ export default function RootLayout({
   
 
   return (
-    <html lang="en" className="dark">
+    <html lang="en" className="">
       <head>
         <script
           key="structured-data"
