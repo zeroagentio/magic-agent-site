@@ -1,23 +1,20 @@
 import { ChevronRight } from "lucide-react";
 
-import { cn } from "@/lib/utils";
-import AnimatedGradientText from "@/components/magicui/animated-gradient-text";
+import { cn } from "@/lib/utils"; 
+import AnimatedShinyText from "../magicui/animated-shiny-text";
 
 export async function AnimatedGradientTextDemo() {
   return (
     <div className="z-10 flex items-center justify-center">
-      <AnimatedGradientText>
-        ✨ <hr className="mx-1 h-4 w-px shrink-0" />
-        <span
-          className={cn(
-            `inline animate-gradient bg-gradient-to-r from-[#ffaa40] via-[#9c40ff] to-[#ffaa40] bg-[length:var(--bg-size)_100%] bg-clip-text text-transparent`,
-          )}
-        >
-          {/* Next-Gen AI Work Assistant */}
-          Your Superhuman is here
-        </span>
-        <ChevronRight className="ml-1 size-3 transition-transform duration-300 ease-in-out group-hover:translate-x-0.5" />
-      </AnimatedGradientText>
+      <div
+        className={cn(
+          "group rounded-full border border-black/5 bg-gray-100 text-base text-white transition-all ease-in hover:cursor-pointer hover:bg-neutral-200 dark:border-white/5 dark:bg-neutral-900 dark:hover:bg-neutral-800",
+        )}
+      >
+      <AnimatedShinyText className="inline-flex items-center justify-center px-4 py-1 transition ease-out text-black hover:duration-300">
+          <span>✨ Future of Online Shopping is here</span>  
+        </AnimatedShinyText>
+        </div>  
     </div>
   );
 }

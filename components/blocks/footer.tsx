@@ -7,13 +7,14 @@ import {
   LinkedInLogoIcon,
 } from "@radix-ui/react-icons";
 import { MailIcon } from "lucide-react";
-import { CONTACT, DOCS } from "@/lib/utils";
+import { BLOGS, CONTACT, DOCS, PRICING, USECASES } from "@/lib/utils";
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
     <>
       <div className="mx-auto w-full max-w-screen-xl xl:pb-2">
+        <hr className="border-gray-700" />
         <div className="md:flex md:justify-between px-8 p-4 py-16 sm:pb-16 gap-4">
           <div className="mb-12 flex-col flex gap-4">
             <div className="flex items-center gap-2">
@@ -26,20 +27,36 @@ const Footer = () => {
                 Zeroagent
               </span>
             </div>
-            <p className="max-w-xs text-gray-200">
-              Next-Gen AI Work Assistant
+            <p className="max-w-xs font-medium text-black">
+              Next-Gen AI Assistant for Online Stores
               {/* AI Agents for everyday Business apps */}
             </p>
           </div>
           <div className="grid grid-cols-1 gap-8 sm:gap-10 sm:grid-cols-3">
             <div>
-              <h4 className="mb-6 text-sm tracking-tighter font-medium text-gray-900 uppercase dark:text-white">
+              <h4 className="mb-6 text-sm tracking-normal font-bold text-gray-900 uppercase dark:text-white">
                 Product
               </h4>
               <ul className="gap-2 grid">
                 <li>
                   <a
-                    className="cursor-pointer text-gray-400 hover:text-gray-200 duration-200 font-[450] text-sm"
+                    className="cursor-pointer font-semibold text-gray-600 hover:text-gray-800 duration-200 text-sm"
+                    href={USECASES}
+                  >
+                    Use Cases
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="cursor-pointer font-semibold text-gray-600 hover:text-gray-800 duration-200 text-sm"
+                    href={BLOGS}
+                  >
+                    Blogs
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="cursor-pointer font-semibold text-gray-600 hover:text-gray-800 duration-200 text-sm"
                     target="blank"                    
                     href={DOCS}
                   >
@@ -48,31 +65,23 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    className="cursor-pointer text-gray-400 hover:text-gray-200 duration-200 font-[450] text-sm"
-                    href="#"
+                    className="cursor-pointer font-semibold text-gray-600 hover:text-gray-800 duration-200 text-sm"
+                    href={PRICING}
 
                   >
                     Pricing
                   </a>
-                </li>
-                <li>
-                  <a
-                    className="cursor-pointer text-gray-400 hover:text-gray-200 duration-200 font-[450] text-sm"
-                    href="#"
-                  >
-                    FAQ
-                  </a>
-                </li>
+                </li> 
               </ul>
             </div> 
             <div>
-              <h4 className="mb-6 text-sm tracking-tighter font-medium text-gray-900 uppercase dark:text-white">
+              <h4 className="mb-6 text-sm tracking-normal font-bold text-gray-900 uppercase dark:text-white">
                 Policy
               </h4>
               <ul className="gap-2 grid">
                 <li>
                   <a
-                    className="cursor-pointer text-gray-400 hover:text-gray-200 duration-200 font-[450] text-sm"
+                    className="cursor-pointer font-semibold text-gray-600 hover:text-gray-800 duration-200 text-sm"
                     href="terms-conditions/"
                   >
                     Terms and Conditions
@@ -80,7 +89,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    className="cursor-pointer text-gray-400 hover:text-gray-200 duration-200 font-[450] text-sm"
+                    className="cursor-pointer font-semibold text-gray-600 hover:text-gray-800 duration-200 text-sm"
                     href="privacy-policy/"
                   >
                     Privacy Policy
@@ -90,13 +99,13 @@ const Footer = () => {
             </div>
 
             <div>
-              <h4 className="mb-6 text-sm tracking-tighter font-medium text-gray-900 uppercase dark:text-white">
+              <h4 className="mb-6 text-sm tracking-normal font-bold text-gray-900 uppercase dark:text-white">
                 Connect with Us
               </h4>
               <ul className="gap-2 grid">
                 <li>
                   <a
-                    className="cursor-pointer text-gray-400 hover:text-gray-200 duration-200 font-[450] text-sm"
+                    className="cursor-pointer font-semibold text-gray-600 hover:text-gray-800 duration-200 text-sm"
                     href={CONTACT}
                   >
                     support@zeroagent.io
@@ -111,7 +120,7 @@ const Footer = () => {
             <a
               rel="noopener"
               title="Github"
-              className="text-gray-500 hover:text-gray-900 dark:hover:text-gray-600 fill-gray-500 hover:fill-gray-900 dark:hover:fill-gray-600"
+              className="text-gray-800 hover:text-gray-900 dark:hover:text-gray-600 fill-gray-500 hover:fill-gray-900 dark:hover:fill-gray-600"
               href="https://github.com/zeroagentio/"
               target="_blank"
             >
@@ -120,7 +129,7 @@ const Footer = () => {
             <a
               rel="noopener"
               title="Mail"
-              className="text-gray-500 hover:text-gray-900 dark:hover:text-gray-600 fill-gray-500 hover:fill-gray-900 dark:hover:fill-gray-600"
+              className="text-gray-800 hover:text-gray-900 dark:hover:text-gray-600 fill-gray-500 hover:fill-gray-900 dark:hover:fill-gray-600"
               href={CONTACT}
               target="_blank"
             >
@@ -129,7 +138,7 @@ const Footer = () => {
             <a
               rel="noopener"
               title="LinkedIn"
-              className="text-gray-500 hover:text-gray-900 dark:hover:text-gray-600 fill-gray-500 hover:fill-gray-900 dark:hover:fill-gray-600"
+              className="text-gray-800 hover:text-gray-900 dark:hover:text-gray-600 fill-gray-500 hover:fill-gray-900 dark:hover:fill-gray-600"
               href="https://www.linkedin.com/company/zeroagent/"
               target="_blank"
             >
@@ -138,14 +147,14 @@ const Footer = () => {
             <a
               rel="noopener"
               title="Instagram"
-              className="text-gray-500 hover:text-gray-900 dark:hover:text-gray-600 fill-gray-500 hover:fill-gray-900 dark:hover:fill-gray-600"
+              className="text-gray-800 hover:text-gray-900 dark:hover:text-gray-600 fill-gray-500 hover:fill-gray-900 dark:hover:fill-gray-600"
               href="https://www.instagram.com/zeromagic/"
               target="_blank"
             >
               <InstagramLogoIcon height={20} width={20} />
             </a>
           </div>
-          <span className="text-xs md:text-sm text-gray-500 sm:text-center dark:text-gray-400">
+          <span className="text-xs md:text-sm text-gray-800 sm:text-center dark:text-gray-400">
             Copyright © {currentYear}{" "}
             <a className="cursor-pointer" href="/">
               Zeromagic Labs Pvt. Ltd

@@ -70,7 +70,8 @@ const config: Config = {
   			marquee: 'marquee var(--duration) infinite linear',
   			'marquee-vertical': 'marquee-vertical var(--duration) linear infinite',
   			shine: 'shine var(--duration) infinite linear',
-  			ripple: 'ripple var(--duration,2s) ease calc(var(--i, 0)*.2s) infinite'
+  			ripple: 'ripple var(--duration,2s) ease calc(var(--i, 0)*.2s) infinite',
+  			'shiny-text': 'shiny-text 8s infinite'
   		},
   		keyframes: {
   			gradient: {
@@ -143,6 +144,14 @@ const config: Config = {
   				},
   				'50%': {
   					transform: 'translate(-50%, -50%) scale(0.9)'
+  				}
+  			},
+  			'shiny-text': {
+  				'0%, 90%, 100%': {
+  					'background-position': 'calc(-100% - var(--shiny-width)) 0'
+  				},
+  				'30%, 60%': {
+  					'background-position': 'calc(100% + var(--shiny-width)) 0'
   				}
   			}
   		}
