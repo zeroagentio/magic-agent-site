@@ -17,34 +17,30 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Next-Gen AI Work Assistant for Free - Zeroagent",
+  title: "Next-Gen AI Shopping Agent for Online Stores - Zeroagent Free Now",
   description:
-    "Simplify your day-to-day business operations with AI Agents for Free. Connect, manage, and execute tasks across multiple apps in one platform using simple chat prompts. Work smarter by eliminating repetitive work!",
+    "Zeroagent turns your online store smart. Our AI Shopping Agent offers personalized product recommendations, handles orders, answers query & more for customers - Just like shopping in-store, but online",
   icons: [
     { rel: "icon", url: Logo },
     { rel: "apple-touch-icon", url: Logo },
   ],
-  applicationName: "Next-Gen AI Work Assistant for Free - Zeroagent",
+  applicationName: "Next-Gen AI Shopping Agent for Online Stores - Zeroagent Free Now",
   referrer: "origin",
   keywords: [
     "AI Agent",
-    "Apps",
-    "Task Automation",
-    "Work Assistant",
-    'Next-Gen AI',
-    "Business Apps",
-    "Tools",
-    "Productivity",
-    "Integrations",
+    "Shopping",
+    "Online Store",
+    "Store Assistant",
+    "Ecommerce" 
   ],
   authors: [
     { name: "ZeroMagic Labs", url: "https://github.com/zeroagentio" },
     { name: "Zeroagent", url: "https://zeroagent.io/" },
   ],
   openGraph: {
-    title: "Next-Gen AI Work Assistant for Free - Zeroagent",
+    title: "Next-Gen AI Shopping Agent for Online Stores - Zeroagent Free Now",
     description:
-      "Simplify your day-to-day business operations with AI Agents for Free. Connect, manage, and execute tasks across multiple apps in one platform using simple chat prompts. Work smarter by eliminating repetitive work!",
+    "Zeroagent turns your online store smart. Our AI Shopping Agent offers personalized product recommendations, handles orders, answers query & more for customers - Just like shopping in-store, but online",
     url: "https://zeroagent.io/", // Replace with your actual website URL
     siteName: "Zeroagent",
     images: [
@@ -66,9 +62,9 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     // site: "@zeromagic", // Replace with your actual Twitter handle
-    title: "Next-Gen AI Work Assistant for Free - Zeroagent",
+    title: "Next-Gen AI Shopping Agent for Online Stores Free - Zeroagent",
     description:
-      "Simplify your day-to-day business operations with AI Agents for Free. Connect, manage, and execute tasks across multiple apps in one platform using simple chat prompts. Work smarter by eliminating repetitive work!",
+    "Zeroagent turns your online store smart. Our AI Shopping Agent offers personalized product recommendations, handles orders, answers query & more for customers - Just like shopping in-store, but online",
     images: 'https://firebasestorage.googleapis.com/v0/b/zeromagicsite.appspot.com/o/zeroagent-nextgen-thumbnail.png?alt=media&token=81f32d08-f27d-45ed-9342-0632d8862941' //Thumbnail.src, 
   },
   robots: {
@@ -90,15 +86,14 @@ export default function RootLayout({
     "@type": "Organization",
     name: "Zeroagent",
     url: "https://zeroagent.io/",
-    headline: "Next-Gen AI Work Assistant - Zeroagent",
+    headline: "Next-Gen AI Shopping Agent for Online Stores - Zeroagent",
     description:
-      "Simplify your day-to-day business operations with AI Agents for Free. Connect, manage, and execute tasks across multiple apps in one platform using simple chat prompts.",
-
+      "Turn your online store smart with our AI Shopping Agent that offers personalized product recommendations, handles orders, answers query & more for customers.",
     subjectOf: {
       "@type": "VideoObject",
-      name: "Demo: AI Agents for everyday Business app - Zeroagent",
+    headline: "Demo: AI Shopping Agent for Online Stores - Zeroagent",
       description:
-        "AI Agents that connects across multiple business apps and perform tasks with simple chat prompts",
+        "AI Agent that connects across multiple business apps and perform tasks with simple chat prompts",
       thumbnail: 'https://firebasestorage.googleapis.com/v0/b/zeromagicsite.appspot.com/o/zeroagent-nextgen-thumbnail.png?alt=media&token=81f32d08-f27d-45ed-9342-0632d8862941', //Thumbnail.src,
       embedUrl: "https://www.youtube.com/watch?v=z-XNOPTabIk",
     },
