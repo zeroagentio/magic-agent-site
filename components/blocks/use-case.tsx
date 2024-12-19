@@ -1,47 +1,11 @@
-import Shopify from "@/app/assets/shopify.png";
-import CodeOnlineStore from "@/app/assets/code-store.png";
-import StaticPage from "@/app/assets/static-page.png";
-
 import Image from "next/image";
-
-const posts = [
-    {
-      id: 1,
-      title: 'Boost your conversion rate',
-      href: '#',
-      description:
-        'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
-      date: 'Mar 16, 2020',
-      datetime: '2020-03-16',
-      category: { title: 'Marketing', href: '#' },
-      img: Shopify, 
-    },
-    {
-        id: 2,
-        title: 'Boost your conversion rate',
-        href: '#',
-        description:
-          'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
-        date: 'Mar 16, 2020',
-        datetime: '2020-03-16',
-        category: { title: 'Marketing', href: '#' },
-      img: CodeOnlineStore, 
-      },
-      {
-        id: 3,
-        title: 'Boost your conversion rate',
-        href: '#',
-        description:
-          'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
-        date: 'Mar 16, 2020',
-        datetime: '2020-03-16',
-        category: { title: 'Marketing', href: '#' }, 
-      img: StaticPage,
-      },
-    // More posts...
-  ]
+import { blogData } from "@/lib/blogs";
+ 
   
   export default function UseCase() {
+
+    const posts = blogData.slice(0, 3);
+
     return ( 
         <div className="mt-32 mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8" id="use-case">
           
@@ -60,16 +24,15 @@ const posts = [
                   />
                 </div> 
                 <div className="flex items-center mt-4 text-xs">                                  
-                  <a
-                    href={post.category.href}
+                  <div 
                     className="relative z-10 rounded-full  px-3 py-1 font-medium text-gray-600 bg-gray-100"
                   >
-                    {post.category.title}
-                  </a>
+                    {post.category}
+                  </div>
                 </div>            
                 <div className="group relative">
                   <h3 className="mt-3 text-lg/6 font-semibold text-gray-900 group-hover:text-gray-600">
-                    <a href={post.href}>
+                    <a href={`blog/${post.slug}`}>
                       <span className="absolute inset-0" />
                       {post.title}
                     </a>

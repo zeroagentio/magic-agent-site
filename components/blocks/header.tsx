@@ -2,12 +2,12 @@
 import { RainbowButton } from "@/components/magicui/rainbow-button"; 
 import Particles from "../magicui/particles";
 import { AnimatedGradientTextDemo } from "./animated-text";
-import { MY_APP } from "@/lib/utils";
+import { MY_APP, WAITINGLIST_FORM } from "@/lib/utils";
 
 export function GetFree() {
 
   const handleClick = () => {
-    window.open(MY_APP, '_blank'); // Open in a new tab
+    window.open(WAITINGLIST_FORM, '_blank'); // Open in a new tab
   };
 
   return <RainbowButton 
