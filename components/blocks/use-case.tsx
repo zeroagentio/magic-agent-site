@@ -1,3 +1,9 @@
+import Shopify from "@/app/assets/shopify.png";
+import CodeOnlineStore from "@/app/assets/code-store.png";
+import StaticPage from "@/app/assets/static-page.png";
+
+import Image from "next/image";
+
 const posts = [
     {
       id: 1,
@@ -8,13 +14,7 @@ const posts = [
       date: 'Mar 16, 2020',
       datetime: '2020-03-16',
       category: { title: 'Marketing', href: '#' },
-      author: {
-        name: 'Michael Foster',
-        role: 'Co-Founder / CTO',
-        href: '#',
-        imageUrl:
-          'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-      },
+      img: Shopify, 
     },
     {
         id: 2,
@@ -25,13 +25,7 @@ const posts = [
         date: 'Mar 16, 2020',
         datetime: '2020-03-16',
         category: { title: 'Marketing', href: '#' },
-        author: {
-          name: 'Michael Foster',
-          role: 'Co-Founder / CTO',
-          href: '#',
-          imageUrl:
-            'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-        },
+      img: CodeOnlineStore, 
       },
       {
         id: 3,
@@ -41,14 +35,8 @@ const posts = [
           'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
         date: 'Mar 16, 2020',
         datetime: '2020-03-16',
-        category: { title: 'Marketing', href: '#' },
-        author: {
-          name: 'Michael Foster',
-          role: 'Co-Founder / CTO',
-          href: '#',
-          imageUrl:
-            'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
-        },
+        category: { title: 'Marketing', href: '#' }, 
+      img: StaticPage,
       },
     // More posts...
   ]
@@ -64,11 +52,11 @@ const posts = [
           <div className="mx-auto grid max-w-2xl grid-cols-1 text-start gap-x-8 sm:mt-10 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
             {posts.map((post) => (
               <article key={post.id} className="flex max-w-xl flex-col items-start justify-between">
-                <div className="items-center max-lg:pb-12 max-lg:pt-10 sm:px-2 lg:pb-10 p-3 border border-gray-200 rounded-xl">
-                  <img
-                    className="w-full max-lg:max-w-xs"
-                    src="https://tailwindui.com/plus/img/component-images/bento-03-performance.png"
-                    alt=""
+                <div className="items-center   border border-gray-200 rounded-xl">
+                  <Image
+                    className="lg:w-96 w-auto max-lg:max-w-xs"
+                    src={post.img}
+                    alt="OnlineStore"
                   />
                 </div> 
                 <div className="flex items-center mt-4 text-xs">                                  
