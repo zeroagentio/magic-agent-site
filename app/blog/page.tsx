@@ -1,6 +1,7 @@
 import Footer from "@/components/blocks/footer";
 import Navbar from "@/components/blocks/navbar";
 import { blogData } from "@/lib/blogs";
+import Image from "next/image";
 
 const BlogsHomePage = () => {
     return (
@@ -14,11 +15,10 @@ const BlogsHomePage = () => {
           <div className="mx-auto grid max-w-2xl grid-cols-1 text-start gap-x-8 sm:mt-10 lg:mx-0 lg:max-w-none lg:grid-cols-3">
             {blogData.map((post) => (
               <article key={post.id} className="flex max-w-xl flex-col items-start justify-between">
-                <div className="items-center max-lg:pb-12 max-lg:pt-10 sm:px-2 lg:pb-10 p-3 border border-gray-200 rounded-xl">
-                  <img
-                    className="h-44 w-full object-fit max-lg:max-w-xs"
-                    // className="aspect-square w-full rounded-lg bg-gray-200 object-cover group-hover:opacity-75 xl:aspect-[8/8]"
-                    src="https://tailwindui.com/plus/img/component-images/bento-03-performance.png"
+                <div className="items-center border border-gray-200 rounded-xl">
+                  <Image
+                    className="lg:h-44 h-auto w-full object-fit max-lg:max-w-xs"
+                    src={post.img}
                     alt=""
                   />
                 </div> 

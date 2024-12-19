@@ -1,7 +1,7 @@
 import { AlignJustifyIcon } from "lucide-react";
 import LogoLight from "@/app/assets/logo.svg";
 import Image from "next/image";
-import { CONTACT, DOCS, TOOLS, MY_APP, BLOGS, USECASES, PRICING } from "@/lib/utils";
+import { CONTACT, DOCS, TOOLS, MY_APP, BLOGS, USECASES, PRICING, WAITINGLIST_FORM } from "@/lib/utils";
 const Navbar = () => {
   return (
     <>
@@ -50,13 +50,13 @@ const Navbar = () => {
               Contact
             </a>
             <span className="text-neutral-500">|</span>
-            <a  href={MY_APP}
+            <a  href={WAITINGLIST_FORM}
               target="_blank">
               Log in
             </a>
             <a
               className="rounded-xl font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 bg-black text-white shadow-sm h-9 px-4 py-2 mr-6 text-sm"
-              href={MY_APP}
+              href={WAITINGLIST_FORM}
               target="_blank"
             >
               Sign Up

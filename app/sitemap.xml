@@ -8,17 +8,64 @@
 
 <url>
   <loc>https://zeroagent.io/</loc>
-  <lastmod>2024-10-24T15:16:40+00:00</lastmod>
+  <lastmod>2024-12-19T00:00:00+00:00</lastmod>
+      <changefreq>weekly</changefreq>
+  <priority>0.9</priority>
+</url>
+
+<url>
+  <loc>https://zeroagent.io/#use-case</loc>
+  <lastmod>2024-12-19T00:00:00+00:00</lastmod>
+      <changefreq>weekly</changefreq>
 </url>
 
 <url>
   <loc>https://zeroagent.io/privacy-policy</loc>
-  <lastmod>2024-10-24T15:16:40+00:00</lastmod>
+  <lastmod>2024-12-19T00:00:00+00:00</lastmod>
 </url>
 
 <url>
   <loc>https://zeroagent.io/terms-conditions</loc>
-  <lastmod>2024-10-24T15:16:40+00:00</lastmod>
+  <lastmod>2024-12-19T00:00:00+00:00</lastmod>
 </url>
+
+<url>
+  <loc>https://zeroagent.io/pricing</loc>
+  <lastmod>2024-12-19T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+
+<url>
+  <loc>https://zeroagent.io/blog</loc>
+  <lastmod>2024-12-19T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+</url>
+
+
+<!-- Add individual blog pages dynamically -->
+  <url>
+    <loc>https://zeroagent.io/blog/ai-shopping-agent-for-shopify-stores</loc>
+    <lastmod>2024-10-24T15:16:40+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  
+  <url>
+    <loc>https://zeroagent.io/blog/ai-shopping-agent-for-custom-coded-online-stores</loc>
+    <lastmod>2024-10-24T15:16:40+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+
+    <url>
+    <loc>https://zeroagent.io/blog/ai-shopping-agent-for-shopify-stores</loc>
+    <lastmod>2024-10-24T15:16:40+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://zeroagent.io/blog/ai-knowledge-base-agent-for-websites</loc>
+    <lastmod>2024-10-24T15:16:40+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
 
 </urlset>

@@ -34,6 +34,10 @@ const MarkdownTools  = {
     },         
 };
 
+export async function generateStaticParams() {
+  // Extract blog slugs from your blog data
+  return blogData.map((post: Blog) => ({ blogId: post.slug }));
+}
 
 
 export default function BlogPost({ params }: { params: { blogId: string } }) {

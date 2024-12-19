@@ -1,12 +1,12 @@
 
 'use client';
-import { MY_APP } from "@/lib/utils";
+import { MY_APP, WAITINGLIST_FORM } from "@/lib/utils";
 import { RainbowButton } from "../magicui/rainbow-button";
 
 export function GetFree() {
 
   const handleClick = () => {
-    window.open(MY_APP, '_blank'); // Open in a new tab
+    window.open(WAITINGLIST_FORM, '_blank'); // Open in a new tab
   };
 
   return <RainbowButton 
