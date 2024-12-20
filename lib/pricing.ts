@@ -7,10 +7,10 @@ export const PricingData = [
       "billing": "/ month, billed yearly",
       "short": "No money, no problem",
       "features": [
-        "15 AI text generations / month",
-        "5 uploads / month",
-        "120 pages / 20 MB per upload",
-        "Inactive content deleted after 60 days"
+        "30 days conversations retention",
+        "Basic Analtics",
+        "5M tokens/month",
+        "1GB Knowledgebase"
       ]
     },
     {
@@ -22,12 +22,11 @@ export const PricingData = [
       "short": "No money, no problem",
       "badge": "Most popular",
       "features": [
-        "Everything in Free, and:",
-        "Unlimited AI text generations",
-        "Unlimited uploads",
-        "Access to premium models (Claude 3 and GPT-4o)",
-        "10,000 pages / 150 MB per upload",
-        "Priority customer support"
+        'Unlimited conversations retention',
+        'Export Chat Data',
+        'Premium  Analytics',
+        "20M tokens/month",
+        "10GB Knowledgebase"
       ]
     },
     {
@@ -39,12 +38,11 @@ export const PricingData = [
       "short": "No money, no problem",
         "badge": "Most popular",
         "features": [
-          "Everything in Free, and:",
-          "Unlimited AI text generations",
-          "Unlimited uploads",
-          "Access to premium models (Claude 3 and GPT-4o)",
-          "10,000 pages / 150 MB per upload",
-          "Priority customer support"
+          "Unlimited conversations retention",
+          'Export Chat Data',
+          'Premium Analytics',        
+          "50M tokens/month",
+          "50GB Knowledgebase"
         ]
       }
   ]

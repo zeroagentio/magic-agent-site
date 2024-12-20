@@ -39,12 +39,12 @@ const Header = () => {
       <AnimatedGradientTextDemo />  
       <h1 className="mt-7 mb-3 bg-gradient-to-br  bg-clip-text py-6 text-5xl  font-semibold leading-none tracking-tight text-black text-balance sm:text-6xl md:text-7xl lg:text-7xl translate-y-[-1rem] animate-fade-in opacity-1 [--animation-delay:200ms]">              
         Next-Gen AI Shopping
-        <br className="hidden md:block" />Assistant for Online Stores
+        <br className="hidden md:block" />&nbsp;Assistant for Online Stores
       </h1>
 
       <div className="max-w-5xl mx-auto text-center">
       <p className="mb-7 text-lg leading-loose font-medium tracking-normal text-gray-800 md:text-2xl text-balance translate-y-[-1rem] animate-fade-in opacity-1 [--animation-delay:400ms]">
-      AI Assistant offers personalized product recommendations, handles orders, answers query & more for customers.<br />
+      AI Agent offers personalized product recommendations, handles orders, answers query & more for customers.<br />
       <span className="font-semibold">"Just like shopping in-store, but online"</span>
       </p>
       </div>

@@ -11,7 +11,7 @@ const Pricing = () => {
   return (
     <>
       <Navbar />
-      <div className="mt-32 mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
+      <div className="xl:mt-32 mt-20 mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
         <p className="mx-auto mt-2 max-w-lg text-balance text-center text-4xl font-semibold tracking-tight text-gray-950 sm:text-5xl">
           Pricing
         </p>
@@ -52,7 +52,7 @@ const Pricing = () => {
       </span>
     </div>
 
-        <div className="mx-auto grid max-w-2xl grid-cols-1 text-start  sm:mt-10 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+        <div className="mx-auto grid max-w-2xl space-y-4 lg:space-y-0 grid-cols-1 text-start  sm:mt-10 lg:mx-0 lg:max-w-none lg:grid-cols-3">
           
         {PricingData.map((plan, index) => (
         <div

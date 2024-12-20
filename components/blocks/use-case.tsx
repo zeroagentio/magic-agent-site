@@ -5,6 +5,7 @@ import { blogData } from "@/lib/blogs";
   export default function UseCase() {
 
     const posts = blogData.slice(0, 3);
+    
 
     return ( 
         <div className="mt-32 mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8" id="use-case">
@@ -13,12 +14,12 @@ import { blogData } from "@/lib/blogs";
         <p className="mx-auto mt-2 max-w-lg text-balance text-center text-4xl font-semibold tracking-tight text-gray-950 sm:text-5xl">
         Our Agent Use Cases
         </p>
-          <div className="mx-auto grid max-w-2xl grid-cols-1 text-start gap-x-8 sm:mt-10 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+          <div className="mx-auto grid max-w-2xl space-y-4 md:space-y-0 grid-cols-1 text-start gap-x-8 mt-4 sm:mt-10 xl:pt-12 pt-2 lg:mx-0 lg:max-w-none lg:grid-cols-3">
             {posts.map((post) => (
               <article key={post.id} className="flex max-w-xl flex-col items-start justify-between">
-                <div className="items-center   border border-gray-200 rounded-xl">
+                <div className="items-center w-full  border border-gray-200 rounded-xl">
                   <Image
-                    className="lg:w-96 w-auto max-lg:max-w-xs"
+                    className="w-full lg:w-96 w-auto"
                     src={post.img}
                     alt="OnlineStore"
                   />
