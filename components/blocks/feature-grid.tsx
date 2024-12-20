@@ -15,7 +15,7 @@ export default function FeatureGrid() {
           Turn Every Customer VIP with AI Store Assistants
           </p>
           <div className="mt-10 grid gap-4 sm:mt-16 lg:grid-cols-3 lg:grid-rows-3">
-            <div className="relative lg:row-span-2">
+            <div className="relative col-span-2 lg:col-span-1 lg:row-span-2">
               <div className="absolute inset-px bg-white lg:rounded-tl-sm"></div>
               <div className="relative flex h-full flex-col overflow-hidden ">
                 <div className="px-8 pb-3 pt-8 sm:px-10 sm:pb-0 sm:pt-10">
@@ -39,7 +39,28 @@ export default function FeatureGrid() {
               <div className="pointer-events-none absolute inset-px rounded-lg shadow ring-1 ring-black/5 lg:rounded-tl-3xl"></div>
             </div>
 
-            <div className="relative max-lg:row-start-2">
+            <div className="hidden md:block relative max-lg:row-start-2">
+              <div className="absolute inset-px rounded-lg bg-white max-lg:rounded-t-[2rem]"></div>
+              <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(theme(borderRadius.lg)+1px)] max-lg:rounded-t-[calc(2rem+1px)]">
+                <div className="px-8 pt-8 sm:px-10 sm:pt-10">
+                  <p className="mt-2 text-xl font-semibold tracking-tight text-gray-950 max-lg:text-center">24/7 Customer Support</p>
+                  <p className="mt-2 max-w-lg text-lg  text-gray-600 max-lg:text-center">
+                  Get instant responses and assistance with AI, reducing support costs and response times
+                  </p>
+                </div>
+                
+                <div className="flex flex-1 items-center justify-center px-8 max-lg:pb-12 max-lg:pt-10 sm:px-10 lg:pb-2">
+                <Image
+                    className="h-[min(152px,40cqw)] object-contain"
+                    src={Time}
+                    alt="Time"
+                  />
+                </div>
+              </div>
+              <div className="pointer-events-none absolute inset-px rounded-lg shadow ring-1 ring-black/5 max-lg:rounded-t-[2rem]"></div>
+            </div>
+
+            <div className="relative md:hidden col-span-2">
               <div className="absolute inset-px rounded-lg bg-white max-lg:rounded-t-[2rem]"></div>
               <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(theme(borderRadius.lg)+1px)] max-lg:rounded-t-[calc(2rem+1px)]">
                 <div className="px-8 pt-8 sm:px-10 sm:pt-10">
