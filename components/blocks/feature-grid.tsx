@@ -3,6 +3,7 @@ import Time from "@/app/assets/time.png";
 import Products from "@/app/assets/products.png";
 import KnowledgeBase from "@/app/assets/knowledgebase.png";
 import Conversations from "@/app/assets/conversations.svg";
+import Orders from "@/app/assets/orders.png";
 
 import Image from "next/image";
 
@@ -137,10 +138,10 @@ export default function FeatureGrid() {
                 </div>
                 <div className="relative min-h-[30rem] w-full grow [container-type:inline-size] max-lg:mx-auto max-lg:max-w-sm">
                   <div className="absolute inset-x-10 bottom-0 top-10 overflow-hidden rounded-t-[12cqw] border-x-[3cqw] border-t-[3cqw] border-gray-700 bg-gray-900 shadow-2xl">
-                    <img
+                    <Image
                       className="size-full object-cover object-top"
-                      src="https://tailwindui.com/plus/img/component-images/bento-03-mobile-friendly.png"
-                      alt=""
+                      src={Orders}
+                      alt="Orders"
                     />
                   </div>
                 </div>

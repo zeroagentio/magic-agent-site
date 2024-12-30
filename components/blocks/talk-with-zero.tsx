@@ -1,3 +1,5 @@
+import Zero from "@/app/assets/talk-with-zero.png";
+import Image from "next/image";
 
 const THUMBNAIL = "https://startup-template-sage.vercel.app/hero-light.png"
 
@@ -15,14 +17,14 @@ const TalkWithZero = () => {
               > 
                <div className="relative">
                   
-                    <img                    
-                      className="dark:hidden block"    
-                      src={THUMBNAIL}
+                    <Image                    
+                      className="dark:hidden rounded-xl block"    
+                      src={Zero}
                       alt="talk zero"
                     />
-                    <img
-                      className="hidden dark:block"  
-                      src={THUMBNAIL}
+                    <Image
+                      className="hidden rounded-xl dark:block"  
+                      src={Zero}
                       alt="talk zero"
                     />
                   </div>
