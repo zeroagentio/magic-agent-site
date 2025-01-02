@@ -47,24 +47,25 @@
 <!-- Add individual blog pages dynamically -->
   <url>
     <loc>https://zeroagent.io/blog/ai-shopping-agent-for-shopify-stores</loc>
-    <lastmod>2024-10-24T15:16:40+00:00</lastmod>
+    <lastmod>2024-12-21T15:16:40+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   
   <url>
     <loc>https://zeroagent.io/blog/ai-shopping-agent-for-custom-coded-online-stores</loc>
-    <lastmod>2024-10-24T15:16:40+00:00</lastmod>
+    <lastmod>2024-12-25T15:16:40+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+ 
+  <url>
+    <loc>https://zeroagent.io/blog/ai-knowledge-base-agent-for-websites</loc>
+    <lastmod>2024-12-31T15:16:40+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
 
     <url>
-    <loc>https://zeroagent.io/blog/ai-shopping-agent-for-shopify-stores</loc>
-    <lastmod>2024-10-24T15:16:40+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://zeroagent.io/blog/ai-knowledge-base-agent-for-websites</loc>
-    <lastmod>2024-10-24T15:16:40+00:00</lastmod>
+    <loc>https://zeroagent.io/blog/zeroagent-a-comprehensive-overview</loc>
+    <lastmod>2025-01-02T15:16:40+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
 
