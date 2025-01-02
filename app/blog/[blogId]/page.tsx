@@ -64,7 +64,7 @@ export default function BlogPost({ params }: { params: { blogId: string } }) {
           author={blogPost.author}
           img={blogPost.img}
         />
-    <div className="text-lg">
+    <div className="md:mx-16 w-5/6 text-lg">
       <Markdown     
       options={{ 
         wrapper: 'aside', 
