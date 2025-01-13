@@ -27,7 +27,7 @@ const CTA = () => {
         Ready to Upgrade Your Online Store with AI Agents?
         </p>
         <p className="mt-4 mb-4 font-medium text-xl">
-          Start your free now. No credit card required.
+          Start for free now. No credit card required.
         </p>
         <br />
         <GetFree />
