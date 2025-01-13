@@ -4,8 +4,8 @@ import Footer from "@/components/blocks/footer";
 import Navbar from "@/components/blocks/navbar";
 import { Features, PricingData, Shopping } from "@/lib/pricing";
 import { useState } from "react";
-import CurrencyDropdown from "./dropdown";
-
+import CurrencyDropdown from "./dropdown"; ;
+ 
 const Pricing = () => {
     const [billingCycle, setBillingCycle] = useState("monthly");
     const [currency, setCurrency] = useState('INR')
