@@ -68,4 +68,16 @@ export const blogData: Blog[] = [
     category: "Overview",
     img: ZeroagentOverview,
   },
+  {
+    id: 5,
+    title: "Zeroagent for Shopify: Quickstart Guide",
+    slug: "zeroagent-for-shopify-quickstart-guide",
+    description:
+      "Connect Zeroagent to your Shopify store and start offering AI-driven shopping assistance to your customers today.",
+    page: "zeroagent-for-shopify-quickstart-guide.md",
+    author: "Rohith",
+    date: "Jan 13, 2025",
+    category: "Shopping",
+    img: Shopify,
+  },
 ];

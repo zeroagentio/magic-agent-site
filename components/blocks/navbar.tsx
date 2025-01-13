@@ -44,7 +44,7 @@ const Navbar = () => {
             </a>
             <a 
               target="_blank"
-              href={TOOLS}
+              href={DOCS}
               >
               Documentation
             </a>
@@ -143,7 +143,7 @@ export const DraggableNavbar:React.FC<Props> = ({
             </a>
             <a 
               target="_blank"
-              href={TOOLS}
+              href={DOCS}
               >
               Documentation
             </a>
