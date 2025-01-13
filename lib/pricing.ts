@@ -101,10 +101,10 @@ export const PricingData = [
         "premium": "true"
       },
       {
-        "name": "Analytics",
+        "name": "Analytics Data",
         "free": "7-day",
-        "growth": "Lifetime",
-        "premium": "Lifetime"
+        "growth": "No time limit",
+        "premium": "No time limit"
       },
       {
         "name": "Data Export (tickets, user conversations)",
