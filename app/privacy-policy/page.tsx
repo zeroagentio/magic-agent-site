@@ -19,7 +19,11 @@ export default function TermsConditions() {
          Privacy Policy
       </div> 
 
-        <div className="text-lg">
+      <div className="prose prose-lg container mx-auto text-lg"
+        style={{
+          maxWidth: '80%'
+        }}
+        >
       <Markdown     
        options={{ 
         wrapper: 'aside', 

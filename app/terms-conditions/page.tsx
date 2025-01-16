@@ -19,10 +19,14 @@ export default function TermsConditions() {
          Terms and Conditions
       </div> 
 
-        <div className="text-lg">
-      <Markdown     
+        <div className="prose prose-lg container mx-auto text-lg"
+        style={{
+          maxWidth: '80%'
+        }}
+        >
+      <Markdown    
        options={{ 
-        wrapper: 'aside', 
+        wrapper: 'div', 
         forceWrapper: true,
         overrides: {
             h2: { 
