@@ -30,7 +30,7 @@ export default function Home() {
     <div  
     className="relative mx-auto my-28 max-w-[80rem] px-6 text-center md:px-8"
     >  
-      <Header />         
+      <Header />
       <BannerCard />
       <br />    
       <FeatureGrid /> 
