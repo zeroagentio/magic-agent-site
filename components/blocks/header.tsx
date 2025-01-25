@@ -2,8 +2,8 @@
 import { RainbowButton } from "@/components/magicui/rainbow-button"; 
 import Particles from "../magicui/particles";
 import { AnimatedGradientTextDemo } from "./animated-text";
-import { MY_APP, WAITINGLIST_FORM } from "@/lib/utils";
-
+import { MY_APP, VIEW_DEMO, WAITINGLIST_FORM } from "@/lib/utils";
+import { InteractiveHoverButton } from "../magicui/interactive-hover-button";
 export function GetFree() {
 
   const handleClick = () => {
@@ -15,17 +15,18 @@ export function GetFree() {
   className="font-medium">Get Started Free</RainbowButton>;
 }
 
-// export function Demo() {
+export function Demo() {
 
-//   const handleClick = () => {
-//     window.open(MY_APP, '_blank'); // Open in a new tab
-//   };
+  const handleClick = () => {
+    window.open(VIEW_DEMO, '_blank'); // Open in a new tab
+  };
 
-//   return <RainbowButton 
-//   onClick={handleClick}
-//   className="font-medium">Get Started Free</RainbowButton>;
-// }
- 
+  return   <InteractiveHoverButton
+  onClick={handleClick}
+  >View Demo</InteractiveHoverButton>;
+
+}
+
 const Header = () => {
   return (
     <>
@@ -48,7 +49,10 @@ const Header = () => {
       <span className="font-semibold">"Just like shopping in-store, but online"</span>
       </p>
       </div>
-      <GetFree />     
+      <div className="space-x-2">
+      <GetFree />    
+      <Demo />    
+      </div>
       </>
   );
 };

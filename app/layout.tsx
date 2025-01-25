@@ -4,6 +4,8 @@ import "./globals.css";
 import Logo from "@/app/assets/logo.svg";
 import Thumbnail from "@/app/assets/thumbnail.png";
 import { GoogleAnalytics } from "@next/third-parties/google";
+import Head from "next/head";
+import Script from "next/script"; 
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -99,6 +101,8 @@ export default function RootLayout({
     },
   };
   
+  
+
 
   return (
     <html lang="en" className="">
@@ -107,9 +111,15 @@ export default function RootLayout({
           key="structured-data"
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLD) }}
-        />
+        /> 
 
-        <script
+<Script
+        src="https://cdn.jsdelivr.net/npm/@zeroagent/js@latest/dist/index.js" 
+        async
+        strategy="beforeInteractive"
+      ></Script>
+
+        {/* <script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-RQMXKE8FE1"
         ></script>
@@ -123,14 +133,14 @@ export default function RootLayout({
       gtag('config', 'G-RQMXKE8FE1');
       `,
           }}
-        ></script>
+        ></script> */}  
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        {children} 
       </body>
-      <GoogleAnalytics gaId="G-RQMXKE8FE1" />
+      <GoogleAnalytics gaId="G-RQMXKE8FE1" />  
     </html>
   );
 }
