@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     siteName: "Zeroagent",
     images: [
       {
-        url: 'https://firebasestorage.googleapis.com/v0/b/zeromagicsite.appspot.com/o/zeroagent-nextgen-thumbnail.png?alt=media&token=81f32d08-f27d-45ed-9342-0632d8862941', // Thumbnail.src,
+        url: 'https://firebasestorage.googleapis.com/v0/b/zeromagicsite.appspot.com/o/zeroagent%2Fzeroagent-shopify-thumbnail.png?alt=media&token=5623a446-f7d4-4236-9ff5-77fa185046c3', // Thumbnail.src,
         width: 1200,
         height: 630,
         alt: "ZeroAgents in Action",
@@ -67,7 +67,7 @@ export const metadata: Metadata = {
     title: "Next-Gen AI Shopping Agent for Online Stores Free - Zeroagent",
     description:
     "Zeroagent turns your online store smart. Our AI Shopping Agent offers personalized product recommendations, handles orders, answers query & more for customers - Just like shopping in-store, but online",
-    images: 'https://firebasestorage.googleapis.com/v0/b/zeromagicsite.appspot.com/o/zeroagent-nextgen-thumbnail.png?alt=media&token=81f32d08-f27d-45ed-9342-0632d8862941' //Thumbnail.src, 
+    images: 'https://firebasestorage.googleapis.com/v0/b/zeromagicsite.appspot.com/o/zeroagent%2Fzeroagent-shopify-thumbnail.png?alt=media&token=5623a446-f7d4-4236-9ff5-77fa185046c3' //Thumbnail.src, 
   },
   robots: {
     index: true,
@@ -96,7 +96,7 @@ export default function RootLayout({
     headline: "Demo: AI Shopping Agent for Online Stores - Zeroagent",
       description:
         "AI Agent that connects across multiple business apps and perform tasks with simple chat prompts",
-      thumbnail: 'https://firebasestorage.googleapis.com/v0/b/zeromagicsite.appspot.com/o/zeroagent-nextgen-thumbnail.png?alt=media&token=81f32d08-f27d-45ed-9342-0632d8862941', //Thumbnail.src,
+      thumbnail: 'https://firebasestorage.googleapis.com/v0/b/zeromagicsite.appspot.com/o/zeroagent%2Fzeroagent-shopify-thumbnail.png?alt=media&token=5623a446-f7d4-4236-9ff5-77fa185046c3', //Thumbnail.src,
       embedUrl: "https://www.youtube.com/watch?v=z-XNOPTabIk",
     },
   };
