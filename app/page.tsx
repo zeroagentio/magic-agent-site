@@ -1,4 +1,4 @@
-'use client'
+// 'use client';
 import { BannerCard } from "@/components/blocks/banner-card";
 import CTA from "@/components/blocks/cta"; 
 import FeatureGrid from "@/components/blocks/feature-grid"; 
@@ -8,11 +8,11 @@ import Navbar from "@/components/blocks/navbar";
 import TalkWithZero from "@/components/blocks/talk-with-zero";
 import UseCase from "@/components/blocks/use-case"; 
 import mixpanel from "mixpanel-browser";
-import { env } from "process"; 
 
 const MIXPANEL_ENABLED = process.env.NODE_ENV === "production";
 
 export default function Home() {
+
 
   if (MIXPANEL_ENABLED) {
 
@@ -33,13 +33,13 @@ export default function Home() {
       <Header />
       <BannerCard />
       <br />    
-      <FeatureGrid /> 
+      <FeatureGrid />
       <UseCase />
       <TalkWithZero /> 
       </div> 
       <CTA />
       <br /> 
-      <Footer />
+      <Footer /> 
     </>
   );
 }

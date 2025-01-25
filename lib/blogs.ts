@@ -3,7 +3,7 @@ import Shopify from "@/app/assets/shopify.png";
 import CodeOnlineStore from "@/app/assets/code-store.png";
 import StaticPage from "@/app/assets/static-page.png";
 import ZeroagentOverview from "@/app/assets/zeroagent-overview.png";
-
+import  AiShoppingAgent from  "@/app/assets/ai-shopping-agent.png";
 const THUMBNAIL = "https://startup-template-sage.vercel.app/hero-light.png";
 
 export type Blog = {
@@ -79,5 +79,17 @@ export const blogData: Blog[] = [
     date: "Jan 13, 2025",
     category: "Shopping",
     img: Shopify,
+  },
+  {
+    id: 6,
+    title: "What are AI Shopping Agents?",
+    slug: "what-are-ai-shopping-agents",
+    description:
+      "Online shopping has transformed the way we purchase goods, but it still lacks the personal touch of a physical store assistant. These advanced digital assistants designed to bridge this gap and make online shopping smarter, more personalized, and efficient.",
+    page: "what-are-ai-shopping-agents.md",
+    author: "Rohith",
+    date: "Jan 25, 2025",
+    category: "Overview",
+    img: AiShoppingAgent,
   },
 ];
