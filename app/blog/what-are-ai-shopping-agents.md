@@ -1,5 +1,7 @@
 As e-commerce continues to grow, retailers are constantly seeking innovative ways to enhance the online shopping experience. One such solution is AI Shopping Agents, which are transforming the way customers interact with online stores. These advanced digital assistants designed to bridge this gap and make online shopping smarter, more personalized, and efficient. 
 
+![personalised-shopping-experience](https://firebasestorage.googleapis.com/v0/b/zeromagicsite.appspot.com/o/zeroagent%2Fblogs%2FPersonalized%20Shopping%20Experience.jpg?alt=media&token=6a5ddf3f-5f7c-4f3c-beac-9342a8435603)
+
 ### What you will learn
 
 1. [What are AI Shopping Agents](#what-are-ai-shopping-agents)
@@ -80,6 +82,8 @@ These examples highlight how AI Shopping Agents can play a crucial role in impro
 [Zeroagent](https://app.zeroagent.io/) is an **AI Shopping Agent** designed to provide all the benefits outlined above. From delivering highly "_personalized product recommendations to recovering abandoned carts, managing quick queries, and tracking orders_", Zeroagent ensures a seamless shopping experience for your customers. It not only boosts sales and reduces cart abandonment rates but also saves operational costs by automating customer support tasks. 
 
 > [Sign up for free - Zeroagent](https://app.zeroagent.io/)
+
+![zeroagent](https://firebasestorage.googleapis.com/v0/b/zeromagicsite.appspot.com/o/zeroagent%2Fzeroagent.png?alt=media&token=d0a90177-1061-4b64-889f-6f53ac47721b )
 
 ## Conclusion
 

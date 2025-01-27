@@ -3,7 +3,9 @@ import Shopify from "@/app/assets/shopify.png";
 import CodeOnlineStore from "@/app/assets/code-store.png";
 import StaticPage from "@/app/assets/static-page.png";
 import ZeroagentOverview from "@/app/assets/zeroagent-overview.png";
-import  AiShoppingAgent from  "@/app/assets/ai-shopping-agent.png";
+import  AiShoppingAgent from  "@/app/assets/smart_shopping_cart.jpeg";
+import  OnlineStore from  "@/app/assets/online-store.jpg";
+
 const THUMBNAIL = "https://startup-template-sage.vercel.app/hero-light.png";
 
 export type Blog = {
@@ -91,5 +93,17 @@ export const blogData: Blog[] = [
     date: "Jan 25, 2025",
     category: "Overview",
     img: AiShoppingAgent,
+  },
+  {
+    id: 7,
+    title: "How AI is transforming Online Stores?",
+    slug: "how-ai-is-transforming-online-stores",
+    description:
+      "The world of e-commerce is highly competitive, and online stores are constantly seeking ways to stand out from the crowd. One effective strategy is to leverage artificial intelligence (AI) to enhance the customer experience.",
+    page: "how-ai-is-transforming-online-stores.md",
+    author: "Rohith",
+    date: "Jan 27, 2025",
+    category: "Overview",
+    img: OnlineStore,
   },
 ];

@@ -23,8 +23,9 @@ export const metadata: Metadata = {
   description:
     "Zeroagent turns your online store smart. Our AI Shopping Agent offers personalized product recommendations, handles orders, answers query & more for customers - Just like shopping in-store, but online",
   icons: [
-    { rel: "icon", url: Logo },
+    { rel: "icon", url: Logo ,type:"image/svg+xml"},
     { rel: "apple-touch-icon", url: Logo },
+    { rel: "shortcut icon", url: Logo , type: 'image/x-icon' },
   ],
   applicationName: "Next-Gen AI Shopping Agent for Online Stores - Zeroagent Free Now",
   referrer: "origin",
