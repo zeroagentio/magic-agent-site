@@ -22,7 +22,7 @@ const BlogsHomePage = () => {
               className="cursor-pointer flex max-w-xl flex-col items-start justify-between">
                 <div className="items-center border border-gray-200 rounded-xl">
                   <Image
-                    className="lg:h-44 h-auto w-full object-fit max-lg:max-w-xs"
+                    className="lg:h-44 rounded-xl h-auto w-full lg:w-96 object-cover max-lg:max-w-xs"
                     src={post.img}
                     alt={post.title}
                   />

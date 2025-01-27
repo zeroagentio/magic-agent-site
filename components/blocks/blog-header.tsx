@@ -31,9 +31,9 @@ const BlogHeader: React.FC<Props> = ({
             <time className="text-gray-500">{date}</time>
             {AuthorComponent}
           </div>
-          <div className="rounded-2xl p-2 border bg-neutral-100">
+          <div className="rounded-2xl h-full lg:h-80 p-2 border bg-neutral-100">
             <Image
-              className="h-full w-full object-fit"
+              className="h-full rounded-xl w-full object-cover"
               src={img}
               alt="talk zero"
             />
