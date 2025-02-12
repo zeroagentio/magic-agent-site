@@ -32,6 +32,8 @@ export const SHOPIFY = "https://docs.zeroagent.io/store/shopify"
 
 export const WEBPAGES = "https://docs.zeroagent.io/make-smarter/lander-sites"
 
+export const TUTORIALS = "https://www.youtube.com/@zeroagentio"
+
 export const PRICING = "/pricing"
 export const BLOGS = "/blog"
 export const USECASES = "/#use-case"
