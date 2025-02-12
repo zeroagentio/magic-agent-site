@@ -74,8 +74,8 @@ const Pricing = () => {
               {plan.billing}
             </span>
           </div> */}
-          <p className="mt-4 mb-6 text-4xl font-bold text-gray-900">{currency === "INR" ? `₹${plan.price_inr}` : `$${plan.price}` }<span className="text-lg font-medium">{plan.billing}</span></p>
-
+          {/* <p className="mt-4 mb-6 text-4xl font-bold text-gray-900">{currency === "INR" ? `₹${plan.price_inr}` : `$${plan.price}` }<span className="text-lg font-medium">{plan.billing}</span></p> */}
+            <br />
 
           {/* <p className="text-gray-900 mb-4">{plan.short}</p> */}
 
