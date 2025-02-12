@@ -1,12 +1,12 @@
 import { ChevronRight } from "lucide-react";
 
-import { cn, WAITINGLIST_FORM } from "@/lib/utils"; 
+import { cn, MY_APP } from "@/lib/utils"; 
 import AnimatedShinyText from "../magicui/animated-shiny-text";
 
 export function AnimatedGradientTextDemo() {
 
     const handleClick = () => {
-    window.open(WAITINGLIST_FORM, '_blank'); // Open in a new tab
+    window.open(MY_APP, '_blank'); // Open in a new tab
   };
 
   return (

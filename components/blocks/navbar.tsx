@@ -2,7 +2,7 @@
 import { AlignJustifyIcon } from "lucide-react";
 import LogoLight from "@/app/assets/logo.svg";
 import Image from "next/image";
-import { CONTACT, DOCS, TOOLS, MY_APP, BLOGS, USECASES, PRICING, WAITINGLIST_FORM } from "@/lib/utils";
+import { CONTACT, DOCS, TOOLS, MY_APP, BLOGS, USECASES, PRICING } from "@/lib/utils";
 import { useState } from "react";
 import { Dialog, DialogBackdrop, DialogPanel, DialogTitle, TransitionChild } from '@headlessui/react';
 import { Cross1Icon } from "@radix-ui/react-icons";
@@ -56,13 +56,13 @@ const Navbar = () => {
               Contact
             </a>
             <span className="text-neutral-500">|</span>
-            <a  href={WAITINGLIST_FORM}
+            <a  href={MY_APP}
               target="_blank">
               Log in
             </a>
             <a
               className="rounded-xl font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 bg-black text-white shadow-sm h-9 px-4 py-2 mr-6 text-sm"
-              href={WAITINGLIST_FORM}
+              href={MY_APP}
               target="_blank"
             >
               Sign Up
@@ -155,13 +155,13 @@ export const DraggableNavbar:React.FC<Props> = ({
               Contact
             </a> 
             <hr />
-            <a  href={WAITINGLIST_FORM}
+            <a  href={MY_APP}
               target="_blank">
               Log in
             </a>
             <a
               className="w-1/3 rounded-xl font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 bg-black text-white shadow-sm h-9 px-4 py-2 mr-6 text-sm"
-              href={WAITINGLIST_FORM}
+              href={MY_APP}
               target="_blank"
             >
               Sign Up
