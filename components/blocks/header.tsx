@@ -23,7 +23,7 @@ export function Demo() {
 
   return   <InteractiveHoverButton
   onClick={handleClick}
-  >View Demo</InteractiveHoverButton>;
+  >Book Demo</InteractiveHoverButton>;
 
 }
 
