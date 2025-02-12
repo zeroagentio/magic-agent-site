@@ -11,6 +11,7 @@ import mixpanel from "mixpanel-browser";
 
 const MIXPANEL_ENABLED = process.env.NODE_ENV === "production";
 
+
 export default function Home() {
 
 

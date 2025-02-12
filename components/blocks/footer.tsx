@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Logo from "@/app/assets/logo.svg";
-
 import {
   GitHubLogoIcon,
   InstagramLogoIcon,
@@ -8,18 +7,18 @@ import {
 } from "@radix-ui/react-icons";
 import { MailIcon } from "lucide-react";
 import { BLOGS, CONTACT, DOCS, PRICING, SHOPIFY, USECASES, VIEW_DEMO, WEBPAGES } from "@/lib/utils";
-
+ 
 // import dynamic from 'next/dynamic';
 // import Zeroagent from '@zeroagent/js';
 // const Zeroagent = dynamic(() => import('@zeroagent/js'), {
 //   ssr: false,
 // });
+ 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <>
-   
+    <> 
       <div className="mx-auto w-full max-w-screen-xl xl:pb-2">
         <hr className="border-gray-700" />
         <div className="md:flex md:justify-between px-8 p-4 py-16 sm:pb-16 gap-4">
