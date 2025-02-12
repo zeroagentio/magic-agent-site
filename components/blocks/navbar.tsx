@@ -2,7 +2,7 @@
 import { AlignJustifyIcon } from "lucide-react";
 import LogoLight from "@/app/assets/logo.svg";
 import Image from "next/image";
-import { CONTACT, DOCS, TOOLS, MY_APP, BLOGS, USECASES, PRICING, VIEW_DEMO } from "@/lib/utils";
+import { CONTACT, DOCS, TOOLS, MY_APP, BLOGS, USECASES, PRICING, VIEW_DEMO, TUTORIALS } from "@/lib/utils";
 import { useState } from "react";
 import { Dialog, DialogBackdrop, DialogPanel, DialogTitle, TransitionChild } from '@headlessui/react';
 import { Cross1Icon } from "@radix-ui/react-icons";
@@ -49,7 +49,12 @@ const Navbar = () => {
               >
               Documentation
             </a>
-        
+            <a 
+              target="_blank"
+              href={TUTORIALS}
+              >
+              Tutorials
+            </a>
             <a 
               target="_blank"
               href={CONTACT}

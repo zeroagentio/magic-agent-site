@@ -6,7 +6,7 @@ import {
   LinkedInLogoIcon,
 } from "@radix-ui/react-icons";
 import { MailIcon } from "lucide-react";
-import { BLOGS, CONTACT, DOCS, PRICING, SHOPIFY, USECASES, VIEW_DEMO, WEBPAGES } from "@/lib/utils";
+import { BLOGS, CONTACT, DOCS, PRICING, SHOPIFY, TUTORIALS, USECASES, VIEW_DEMO, WEBPAGES } from "@/lib/utils";
  
 // import dynamic from 'next/dynamic';
 // import Zeroagent from '@zeroagent/js';
@@ -76,6 +76,15 @@ const Footer = () => {
                     href={BLOGS}
                   >
                     Blogs
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="cursor-pointer font-semibold text-gray-600 hover:text-gray-800 duration-200 text-sm"
+                    target="blank"                    
+                    href={TUTORIALS}
+                  >
+                    Tutorials
                   </a>
                 </li>
                 <li>
