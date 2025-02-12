@@ -25,7 +25,12 @@ export async function generateMetadata({ params }: { params: { title: string, de
 
 export const WAITINGLIST_FORM = "https://forms.zohopublic.com/zeromagic/form/ZeromagicWaitlistForm/formperma/AgfMAJ7hBxvNYCAsKvd-OskB1AOol9hrUNig-l8nN4I"
 
-export const VIEW_DEMO = "https://magic-demo-09.myshopify.com/"
+// export const VIEW_DEMO = "https://magic-demo-09.myshopify.com/"
+export const VIEW_DEMO = "https://cal.com/ndrohith/30min"
+
+export const SHOPIFY = "https://docs.zeroagent.io/store/shopify"
+
+export const WEBPAGES = "https://docs.zeroagent.io/make-smarter/lander-sites"
 
 export const PRICING = "/pricing"
 export const BLOGS = "/blog"

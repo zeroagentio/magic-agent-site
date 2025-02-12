@@ -7,7 +7,7 @@ import {
   LinkedInLogoIcon,
 } from "@radix-ui/react-icons";
 import { MailIcon } from "lucide-react";
-import { BLOGS, CONTACT, DOCS, PRICING, USECASES } from "@/lib/utils";
+import { BLOGS, CONTACT, DOCS, PRICING, SHOPIFY, USECASES, VIEW_DEMO, WEBPAGES } from "@/lib/utils";
 
 // import dynamic from 'next/dynamic';
 // import Zeroagent from '@zeroagent/js';
@@ -45,6 +45,24 @@ const Footer = () => {
                 Product
               </h4>
               <ul className="gap-2 grid">
+              <li>
+                  <a
+                    className="cursor-pointer font-semibold text-gray-600 hover:text-gray-800 duration-200 text-sm"
+                    href={SHOPIFY}
+                  >
+                    Shopify
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    className="cursor-pointer font-semibold text-gray-600 hover:text-gray-800 duration-200 text-sm"
+                    href={WEBPAGES}
+
+                  >
+                    Web Pages
+                  </a>
+                </li> 
                 <li>
                   <a
                     className="cursor-pointer font-semibold text-gray-600 hover:text-gray-800 duration-200 text-sm"
@@ -70,15 +88,6 @@ const Footer = () => {
                     Documentation
                   </a>
                 </li>
-                <li>
-                  <a
-                    className="cursor-pointer font-semibold text-gray-600 hover:text-gray-800 duration-200 text-sm"
-                    href={PRICING}
-
-                  >
-                    Pricing
-                  </a>
-                </li> 
               </ul>
             </div> 
             <div>
@@ -102,6 +111,14 @@ const Footer = () => {
                     Privacy Policy
                   </a>
                 </li>   
+                <li>
+                  <a
+                    className="cursor-pointer font-semibold text-gray-600 hover:text-gray-800 duration-200 text-sm"
+                    href="pricing/"
+                  >
+                    Pricing
+                  </a>
+                </li>
               </ul>
             </div>
 
@@ -116,6 +133,14 @@ const Footer = () => {
                     href={CONTACT}
                   >
                     support@zeroagent.io
+                  </a>
+                </li>
+                <li>
+                  <a
+                    className="cursor-pointer font-semibold text-gray-600 hover:text-gray-800 duration-200 text-sm"
+                    href={VIEW_DEMO}
+                  >
+                    Book Demo
                   </a>
                 </li>
               </ul>
