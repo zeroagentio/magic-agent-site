@@ -2,7 +2,7 @@
 import { AlignJustifyIcon } from "lucide-react";
 import LogoLight from "@/app/assets/logo.svg";
 import Image from "next/image";
-import { CONTACT, DOCS, TOOLS, MY_APP, BLOGS, USECASES, PRICING } from "@/lib/utils";
+import { CONTACT, DOCS, TOOLS, MY_APP, BLOGS, USECASES, PRICING, VIEW_DEMO } from "@/lib/utils";
 import { useState } from "react";
 import { Dialog, DialogBackdrop, DialogPanel, DialogTitle, TransitionChild } from '@headlessui/react';
 import { Cross1Icon } from "@radix-ui/react-icons";
@@ -27,6 +27,7 @@ const Navbar = () => {
           </div>
   
           <div className="ml-auto hidden space-x-6 font-semibold sm:hidden lg:flex h-full items-center"> 
+           
             <a
               href={PRICING}
               >
@@ -56,6 +57,12 @@ const Navbar = () => {
               Contact
             </a>
             <span className="text-neutral-500">|</span>
+            <a
+              href={VIEW_DEMO}
+              target="_blank"
+              >
+              Book Demo
+            </a>
             <a  href={MY_APP}
               target="_blank">
               Log in
