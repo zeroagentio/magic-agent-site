@@ -9,7 +9,7 @@ import Image from "next/image";
 
 export default function FeatureGrid() {
     return ( 
-        <div className="mt-10 mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
+        <div className="mt-32 mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
           <h2 className="text-center text-lg font-semibold text-gray-600">Make Online Store smarter</h2>
           <p className="mx-auto mt-2 max-w-2xl leading-loose text-balance text-center text-4xl font-semibold tracking-tight text-gray-950 sm:text-5xl"
           style={{ lineHeight: '1.2' }}>
