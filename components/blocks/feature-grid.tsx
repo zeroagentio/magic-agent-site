@@ -9,11 +9,12 @@ import Image from "next/image";
 
 export default function FeatureGrid() {
     return ( 
-        <div className="mt-20 mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
+        <div className="mt-10 mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
           <h2 className="text-center text-lg font-semibold text-gray-600">Make Online Store smarter</h2>
           <p className="mx-auto mt-2 max-w-2xl leading-loose text-balance text-center text-4xl font-semibold tracking-tight text-gray-950 sm:text-5xl"
           style={{ lineHeight: '1.2' }}>
-          Turn Every Customer VIP with AI Store Assistants
+            AI Store Assistants Here to Help, Always
+          {/* Turn Every Customer VIP with AI Store Assistants */}
           </p>
           <div className="mt-10 grid gap-4 sm:mt-16 lg:grid-cols-3 lg:grid-rows-3">
             <div className="relative col-span-2 lg:col-span-1 lg:row-span-2">

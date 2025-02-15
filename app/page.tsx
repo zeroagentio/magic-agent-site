@@ -1,5 +1,6 @@
 // 'use client';
 import { BannerCard } from "@/components/blocks/banner-card";
+import Chat from "@/components/blocks/chat";
 import CTA from "@/components/blocks/cta"; 
 import FeatureGrid from "@/components/blocks/feature-grid"; 
 import Footer from "@/components/blocks/footer";
@@ -33,7 +34,7 @@ export default function Home() {
     >  
       <Header />
       <BannerCard />
-      <br />    
+      <Chat /> 
       <FeatureGrid />
       <UseCase />
       <TalkWithZero /> 
