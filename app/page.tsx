@@ -35,9 +35,9 @@ export default function Home() {
       <Header />
       <BannerCard />
       <Chat /> 
+      <TalkWithZero /> 
       <FeatureGrid />
       <UseCase />
-      <TalkWithZero /> 
       </div> 
       <CTA />
       <br /> 

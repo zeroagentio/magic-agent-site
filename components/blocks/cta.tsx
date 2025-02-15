@@ -18,7 +18,7 @@ const CTA = () => {
   return (
     <>
       {/* <ScrollTools /> */} 
-    <div className="mt-24 mb-16">
+    <div className="mt-32 mb-16">
       {/* <div className="mx-auto size-24 rounded-[2rem] border bg-white/10 p-3 shadow-md backdrop-blur-md dark:bg-black/10 lg:size-32">
       <HeartHandshake className="mx-auto size-16 text-black dark:text-white lg:size-24"/>
       </div> */}
