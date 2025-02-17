@@ -4,7 +4,7 @@ import Products from "@/app/assets/products.png";
 import KnowledgeBase from "@/app/assets/knowledgebase.png";
 import Conversations from "@/app/assets/conversations.svg";
 import Orders from "@/app/assets/orders.png";
-
+import Analytics from "@/app/assets/analytics.png";
 import Image from "next/image";
 
 export default function FeatureGrid() {
@@ -45,17 +45,22 @@ export default function FeatureGrid() {
               <div className="absolute inset-px rounded-lg bg-white max-lg:rounded-t-[2rem]"></div>
               <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(theme(borderRadius.lg)+1px)] max-lg:rounded-t-[calc(2rem+1px)]">
                 <div className="px-8 pt-8 sm:px-10 sm:pt-10">
-                  <p className="mt-2 text-xl font-semibold tracking-tight text-gray-950 max-lg:text-center">24/7 Customer Support</p>
+                  <p className="mt-2 text-xl font-semibold tracking-tight text-gray-950 max-lg:text-center">Emotional Intelligence Analysis</p>
+                  <p className="mt-2 max-w-lg text-lg  text-gray-600 max-lg:text-center">
+                  Deeper analysis of user emotions and behavioral patterns to create detailed profiles 
+                  </p>
+
+                  {/* <p className="mt-2 text-xl font-semibold tracking-tight text-gray-950 max-lg:text-center">24/7 Customer Support</p>
                   <p className="mt-2 max-w-lg text-lg  text-gray-600 max-lg:text-center">
                   Get instant responses and assistance with AI, reducing support costs and response times
-                  </p>
+                  </p> */}
                 </div>
                 
                 <div className="flex flex-1 items-center justify-center px-8 max-lg:pb-12 max-lg:pt-10 sm:px-10 lg:pb-2">
                 <Image
                     className="h-[min(152px,40cqw)] object-contain"
-                    src={Time}
-                    alt="Time"
+                    src={Analytics}
+                    alt="Analytics"
                   />
                 </div>
               </div>
@@ -66,17 +71,17 @@ export default function FeatureGrid() {
               <div className="absolute inset-px rounded-lg bg-white max-lg:rounded-t-[2rem]"></div>
               <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(theme(borderRadius.lg)+1px)] max-lg:rounded-t-[calc(2rem+1px)]">
                 <div className="px-8 pt-8 sm:px-10 sm:pt-10">
-                  <p className="mt-2 text-xl font-semibold tracking-tight text-gray-950 max-lg:text-center">24/7 Customer Support</p>
-                  <p className="mt-2 max-w-lg text-lg  text-gray-600 max-lg:text-center">
-                  Get instant responses and assistance with AI, reducing support costs and response times
+                  <p className="mt-2 text-xl font-semibold tracking-tight text-gray-950 max-lg:text-center">Emotional Intelligence Analysis</p>
+                  <p className="mt-2 max-w-lg text-lg  text-gray-600 max-lg:text-center"> 
+                  Deeper analysis of user emotions and behavioral patterns to create detailed profiles 
                   </p>
                 </div>
                 
                 <div className="flex flex-1 items-center justify-center px-8 max-lg:pb-12 max-lg:pt-10 sm:px-10 lg:pb-2">
                 <Image
                     className="h-[min(152px,40cqw)] object-contain"
-                    src={Time}
-                    alt="Time"
+                    src={Analytics}
+                    alt="Analytics"
                   />
                 </div>
               </div>
