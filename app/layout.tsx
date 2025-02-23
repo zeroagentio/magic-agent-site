@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   referrer: "origin",
   keywords: [
     "AI Agent",
-    "Shopping",
+    "Shopping Assistant",
     "Online Store",
     "Store Assistant",
     "Ecommerce" 
@@ -55,8 +55,8 @@ export const metadata: Metadata = {
       },
     ],
     videos: {
-      url: "https://www.youtube.com/watch?v=z-XNOPTabIk",
-      secureUrl: "https://www.youtube.com/watch?v=z-XNOPTabIk",
+      url: "https://www.youtube.com/watch?v=FZ-P2zNSFR4",
+      secureUrl: "https://www.youtube.com/watch?v=FZ-P2zNSFR4",
       type: "video/youtube",
       width: 1280,
       height: 720,
@@ -89,7 +89,7 @@ export default function RootLayout({
     "@type": "Organization",
     name: "Zeroagent",
     url: "https://zeroagent.io/",
-    headline: "Next-Gen AI Shopping Agent for Online Stores - Zeroagent",
+    headline: "Next-Gen AI Shopping Assistant for Online Stores - Zeroagent",
     description:
       "Turn your online store smart with our AI Shopping Agent that offers personalized product recommendations, handles orders, answers query & more for customers.",
     subjectOf: {
@@ -98,7 +98,7 @@ export default function RootLayout({
       description:
         "AI Agent that connects across multiple business apps and perform tasks with simple chat prompts",
       thumbnail: 'https://firebasestorage.googleapis.com/v0/b/zeromagicsite.appspot.com/o/zeroagent%2Fzeroagent-shopify-thumbnail.png?alt=media&token=5623a446-f7d4-4236-9ff5-77fa185046c3', //Thumbnail.src,
-      embedUrl: "https://www.youtube.com/watch?v=z-XNOPTabIk",
+      embedUrl: "https://www.youtube.com/watch?v=FZ-P2zNSFR4",
     },
   };
   
