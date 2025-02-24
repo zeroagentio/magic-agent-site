@@ -22,7 +22,7 @@ export default function FeatureGrid() {
               <div className="relative flex h-full flex-col overflow-hidden ">
                 <div className="px-8 pb-3 pt-8 sm:px-10 sm:pb-0 sm:pt-10">
                   <p className="mt-2 text-xl font-semibold tracking-tight text-gray-950 max-lg:text-center">
-                    Personalised Suggestions
+                    AI Thematic Search
                   </p>
                   <p className="mt-2 max-w-lg text-lg  text-gray-600 max-lg:text-center">
                   Store assistants learns preferences and behavior to suggest products that are just right for your customers
