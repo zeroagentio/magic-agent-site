@@ -29,7 +29,7 @@ export default function Chat () {
             <h1 className="text-4xl font-semibold tracking-tight text-gray-900 sm:text-6xl">
             The AI Employee Who Never Sleeps!
             </h1>
-            <p className="mt-10 text-xl text-gray-500">
+            <p className="mt-10 text-xl font-medium text-gray-600">
             ChatGPT for your store - handle support, product FAQs, AI chat, checkout assistance, order inquiries, product trivia, and more!
             </p>
           </div>
