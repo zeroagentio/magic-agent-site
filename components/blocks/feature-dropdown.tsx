@@ -5,7 +5,7 @@ import { MagnifyingGlassIcon, PersonIcon, PieChartIcon, ReaderIcon } from '@radi
 import { ChevronDownIcon, Headset, PhoneIcon, PlayCircle } from 'lucide-react'
 
 const solutions = [
-    { name: 'AI Product Search', description: "Your customers' data will be safe and secure", href: AI_PRODUCT_SEARCH, icon: MagnifyingGlassIcon },
+    { name: 'AI Product Search', description: "Match products based on user preferences", href: AI_PRODUCT_SEARCH, icon: MagnifyingGlassIcon },
     { name: 'Analytics', description: 'Get a better understanding of your customers', href: ANALYTICS, icon: PieChartIcon },
     { name: 'AI Support', description: 'Automates ticket creation and management', href: AI_SUPPORT, icon: Headset },
     { name: 'AI Store Manager', description: 'Assistant designed to manage your online store', href: AI_MANAGER , icon: PersonIcon },
