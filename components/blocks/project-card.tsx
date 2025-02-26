@@ -1,13 +1,13 @@
-// import { Badge } from "@/components/ui/badge";
+'use client';
 import {
   Card, 
   CardHeader,
   CardTitle,
 } from "@/components/magicui/card";
 import { cn } from "@/lib/utils";
+import { ArrowRightIcon } from "lucide-react";
 import Image from "next/image";
-import Link from "next/link";  
-
+import Link from "next/link";   
 interface Props {
   title: string;
   href?: string;
@@ -23,6 +23,11 @@ export function ProjectCard({
   image, 
   className,
 }: Props) {
+
+        const handleClick = () => {
+          window.open('', '_blank'); // Open in a new tab
+        };
+
   return (
     <Card
       className={
@@ -49,7 +54,8 @@ export function ProjectCard({
           <CardTitle className="mt-1 text-xl">{title}</CardTitle>
           <p className="mt-2 max-w-lg text-gray-600 text-left">
                 {description}
-                  </p> 
+          </p>
+          <a href={href} target="_blank" className="flex pt-1 font-medium hover:underline text-sm align-center">Learn More <ArrowRightIcon width={18} className='pl-1' /></a> 
         </div>
       </CardHeader>
       {/* <CardContent className="mt-auto flex flex-col px-2">
