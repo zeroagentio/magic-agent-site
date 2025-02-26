@@ -5,6 +5,7 @@ import AnalyticsFeature from "@/app/assets/analytics-feature.jpg";
 import Conversations from "@/app/assets/conversations.jpg";
 import AllInOne from "@/app/assets/all-in-one-assistant.jpg";
 import ShoppingExperience from "@/app/assets/shopping-experience.jpg";
+import { AI_PRODUCT_SEARCH , AI_SUPPORT, ANALYTICS, KNOWLEDGE_BASE, SHOPPING_EXP} from "@/lib/utils";
 
 const projects =  [
   {
@@ -12,6 +13,7 @@ const projects =  [
     description:
       "Store assistants learns preferences and behavior to suggest products that are just right for your customer.",   
     image: SearchFeature.src,
+    href: AI_PRODUCT_SEARCH
     // video:"",
   },
   {
@@ -19,6 +21,7 @@ const projects =  [
     description:
       "Get deeper analysis of user emotions, preferences and behavioral patterns for smarter business decisions.",
     image: AnalyticsFeature.src,
+    href: ANALYTICS
     // video: "https://cdn.magicui.design/bento-grid.mp4",
   },
   {
@@ -26,21 +29,23 @@ const projects =  [
     description:
       "Let AI handle customer queries effortlessly. Get instant and accurate responses anytime!", 
     image: Conversations.src,
+    href: AI_SUPPORT
     // video: "https://cdn.llm.report/openai-demo.mp4",
   },
   {
-    title: "AI Learns from Knowledge Base",
-    href: "https://automatic.chat",
+    title: "AI Learns from Knowledge Base", 
     description:
       "Easily keep your AI up to date. It learns from real-time data, so your customers always get the most accurate information",
     image: KnowledgeFeature.src,
+    href: KNOWLEDGE_BASE
     // video: "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
   },
   {
     title: "AI Shopping Experience", 
     description:
-      "Get actionable insights to understand customer needs, preferences, and trends for smarter business decisions", 
+      "AI assistant enhances customer shopping experiences by delivering personalized, intelligent product discovery", 
     image: ShoppingExperience.src,
+    href: SHOPPING_EXP
     // video: AnalyticsFeature.src,
   },
   {
@@ -48,6 +53,7 @@ const projects =  [
     description:
       "From adding to cart, order returns & many more - AI assistant does it all for your customers.",   
     image: AllInOne.src,
+    href: SHOPPING_EXP
     // video: "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
   },
 ]

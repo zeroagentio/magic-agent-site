@@ -6,6 +6,7 @@ import { CONTACT, DOCS, TOOLS, MY_APP, BLOGS, USECASES, PRICING, VIEW_DEMO, TUTO
 import { useState } from "react";
 import { Dialog, DialogBackdrop, DialogPanel, DialogTitle, TransitionChild } from '@headlessui/react';
 import { Cross1Icon } from "@radix-ui/react-icons";
+import FeatureDropdown from "./feature-dropdown";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -33,7 +34,7 @@ const Navbar = () => {
               >
               Pricing
             </a>
-            
+            <FeatureDropdown />
             <a 
               href={USECASES}
               >
