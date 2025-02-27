@@ -52,7 +52,7 @@ const Pricing = () => {
         Yearly <span className="text-blue-900">(Save 20%)</span>
       </span>
       
-      {/* <CurrencyDropdown setCurrency={setCurrency}/>  */}
+      <CurrencyDropdown setCurrency={setCurrency}/> 
     </div>
 
         <div className="mx-auto grid max-w-2xl space-y-4 lg:space-y-0 grid-cols-1 text-start  sm:mt-10 lg:mx-0 lg:max-w-none lg:grid-cols-3">
@@ -68,12 +68,12 @@ const Pricing = () => {
 
           <p className="mt-2 text-gray-900">{plan.description}</p>
 
-          <div className="mb-4 mt-6 text-3xl font-semibold text-gray-900">
+          {/* <div className="mb-4 mt-6 text-3xl font-semibold text-gray-900">
             ${plan.price}{" "}
             <span className="text-base font-normal text-gray-900">
               {plan.billing}
             </span>
-          </div>
+          </div> */}
           <p className="mt-4 mb-6 text-4xl font-bold text-gray-900">{currency === "INR" ? `₹${plan.price_inr}` : `$${plan.price}` }<span className="text-lg font-medium">{plan.billing}</span></p>
             <br />
 
