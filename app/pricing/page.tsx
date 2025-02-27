@@ -8,9 +8,10 @@ import CurrencyDropdown from "./dropdown"; ;
  
 const Pricing = () => {
     const [billingCycle, setBillingCycle] = useState("monthly");
-    const [currency, setCurrency] = useState('INR')
+    const [currency, setCurrency] = useState('USD');
 
   return (
+
     <>
       <Navbar />
       <div className="xl:mt-32 mt-20 mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
