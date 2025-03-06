@@ -28,7 +28,8 @@ export const WAITINGLIST_FORM = "https://forms.zohopublic.com/zeromagic/form/Zer
 export const PRODUCT_DEMO = "https://www.youtube.com/watch?v=IChhbRFLAMU"
 export const VIEW_DEMO = "https://cal.com/ndrohith/30min"
 
-export const SHOPIFY = "https://docs.zeroagent.io/store/shopify"
+export const SHOPIFY = "https://apps.shopify.com/zeroagent"
+// export const SHOPIFY = "https://docs.zeroagent.io/store/shopify"
 
 export const WEBPAGES = "https://docs.zeroagent.io/make-smarter/lander-sites"
 
