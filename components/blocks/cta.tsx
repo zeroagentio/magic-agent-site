@@ -2,6 +2,7 @@
 'use client';
 import { MY_APP } from "@/lib/utils";
 import { RainbowButton } from "../magicui/rainbow-button";
+import { ShopifyDemo } from "./shopify-demo";
 
 export function GetFree() {
 
@@ -31,6 +32,7 @@ const CTA = () => {
         </p>
         <br />
         <GetFree />
+        <ShopifyDemo />
       </div>
 
     </div>
