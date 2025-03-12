@@ -20,7 +20,7 @@
     "framer-motion": "^11.15.0",
     "lucide-react": "^0.451.0",
     "markdown-to-jsx": "^7.5.0",
-    "mixpanel-browser": "^2.56.0",
+    "mixpanel-browser": "^2.61.1",
     "motion": "^12.4.7",
     "next": "14.2.15",
     "next-themes": "^0.3.0",
