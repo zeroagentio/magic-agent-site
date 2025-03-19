@@ -10,8 +10,15 @@ import TalkWithZero from "@/components/blocks/talk-with-zero";
 import UseCase from "@/components/blocks/use-case";
 import mixpanel from "mixpanel-browser";
 import { useEffect } from "react";
+import { injectContentsquareScript } from '@contentsquare/tag-sdk';
 
 const MIXPANEL_ENABLED = process.env.NODE_ENV === "production";
+
+injectContentsquareScript({
+  siteId: "5343564",
+  async: true, // Optional: Set to false to wait for script execution until after document parsing.
+  defer: false // Optional: Set to true to defer script execution after document parsing.
+});
 
 export default function Home() {
   useEffect(() => {
