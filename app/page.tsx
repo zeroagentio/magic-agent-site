@@ -8,6 +8,7 @@ import Header from "@/components/blocks/header";
 import Navbar from "@/components/blocks/navbar";
 import TalkWithZero from "@/components/blocks/talk-with-zero";
 import UseCase from "@/components/blocks/use-case";
+import VoiceAI from "@/components/blocks/voice-ai";
 import mixpanel from "mixpanel-browser";
 import { useEffect } from "react"; 
 
@@ -32,6 +33,7 @@ export default function Home() {
       <div className="relative mx-auto my-28 max-w-[80rem] px-6 text-center md:px-8">
         <Header />
         <BannerCard />
+        <VoiceAI />
         <Chat />
         <TalkWithZero />
         <FeatureGrid />
