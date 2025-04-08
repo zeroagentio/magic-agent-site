@@ -1,18 +1,33 @@
 'use client'; 
 import Image from 'next/image';
-import ChatMock from "@/app/assets/recommendation-mock.gif";
-import { ArrowBigUpDash, ArrowRightIcon, ChartLineIcon, CopyPlus, HeadsetIcon, IndianRupeeIcon, PackagePlus, Search, ShoppingCartIcon } from 'lucide-react';
+import ChatMock from "@/app/assets/agent-mock.gif";
+import { ArrowRightIcon, ChartLineIcon, HeadsetIcon, IndianRupeeIcon, ShoppingCartIcon } from 'lucide-react';
 import { MY_APP } from '@/lib/utils';
-import { RainbowButton } from '../magicui/rainbow-button';  
+import { RainbowButton } from '../magicui/rainbow-button';
  
-export default function Chat () {
+export default function VoiceAI () {
     return (  
-              <div className=""> 
+              <div className="bg-white mt-5"> 
                 {/* Product info */}
                 <div className="mx-auto max-w-2xl px-4 pt-10 sm:px-6 lg:grid lg:max-w-7xl lg:grid-cols-4  lg:gap-x-8 lg:px-8 lg:pt-16">
                   
                   {/* Options */}
-                  <div className="lg:col-span-2"> 
+                 
+            
+                  <div className="lg:col-span-2 lg:pr-8">
+                 
+                    <div className="sm:max-w-lg text-left pt-10">
+            <h1 className="text-4xl font-semibold tracking-tight text-gray-900 sm:text-6xl">
+            Speak, Shop, and Listen with Zero!
+            </h1>
+            <p className="mt-10 text-xl font-medium text-gray-600">
+            AI Employee for your store - handle support, product FAQs, AI chat, checkout assistance, order inquiries, product trivia, and more!
+            </p>
+          </div>
+          <StatsCards />
+                  </div>
+         
+                  <div className="lg:col-start-3 lg:col-span-2"> 
                      
                      <Image 
                      alt=''
@@ -22,19 +37,7 @@ export default function Chat () {
                      src={ChatMock}
                      />
                   </div>
-            
-                  <div className="lg:col-start-3 lg:col-span-2 lg:pr-8">
-                 
-                    <div className="sm:max-w-lg text-left pt-10">
-            <h1 className="text-4xl font-semibold tracking-tight text-gray-900 sm:text-6xl">
-            The AI Employee Who Never Sleeps!
-            </h1>
-            <p className="mt-10 text-xl font-medium text-gray-600">
-            Zero learns what your customers like and suggests spot-on recommendations, making shopping experience smarter and easier.            </p>
-          </div>
-          <StatsCards />
-                  </div>
-         
+
                 </div>
               </div> 
     )
@@ -50,9 +53,10 @@ export default function Chat () {
       };
 
     const stats = [
-        { icon: <Search />, title: "Smart Product Matches", value: "Increase cart rate by 35% " },
-        { icon: <PackagePlus />, title: "Perfect Pairings", value: "Boost AOV by 28%" },
-        { icon: <ArrowBigUpDash />, title: "Best Performing Products", value: "3x Faster Checkouts" },
+        { icon: <HeadsetIcon />, title: "Lower Support Costs", value: "Save upto 70%" },
+        { icon: <ChartLineIcon />, title: "Higher Conversion Rate", value: "Higher by 3x" },
+        // { icon: <IndianRupeeIcon />, title: "Higher Average Order Value", value: "Increased by 30%" },
+        { icon: <ShoppingCartIcon />, title: "Increased Cart Additions", value: "Boost by 2x" },
     ];
   
     return (
@@ -75,7 +79,7 @@ export default function Chat () {
 <br/>
  <RainbowButton 
   onClick={handleClick}
-  className="flex items-center font-medium">Try Free Today <ArrowRightIcon width={20} className='pl-1' /></RainbowButton>
+  className="flex items-center font-medium">Try Free Now <ArrowRightIcon width={20} className='pl-1' /></RainbowButton>
 
       </div>
     );
