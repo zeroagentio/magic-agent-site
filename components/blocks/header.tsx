@@ -40,7 +40,7 @@ const Header = () => {
       <AnimatedGradientTextDemo />  
       <h1 className="mt-7 mb-3 bg-gradient-to-br  bg-clip-text py-6 text-5xl  font-semibold leading-none tracking-tight text-black text-balance sm:text-6xl md:text-7xl lg:text-7xl translate-y-[-1rem] animate-fade-in opacity-1 [--animation-delay:200ms]">              
         Meet Zero, Your AI Shopping
-        <br className="hidden md:block" />&nbsp;Assistant who Listens & Speaks
+        <br className="hidden md:block" />&nbsp;Assistant who Speaks & Sells 
       </h1>
 
       <div className="max-w-5xl mx-auto text-center">
