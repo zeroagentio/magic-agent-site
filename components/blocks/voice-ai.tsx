@@ -18,7 +18,8 @@ export default function VoiceAI () {
                  
                     <div className="sm:max-w-lg text-left pt-10">
             <h1 className="text-4xl font-semibold tracking-tight text-gray-900 sm:text-6xl">
-            Speak, Shop, and Listen with Zero!
+            {/* Speak, Shop, and Listen with Zero! */}
+        Hire Zero, Your AI Store Employee who Speaks, Sells & More 
             </h1>
             <p className="mt-10 text-xl font-medium text-gray-600">
             AI Employee for your store - handle support, product FAQs, AI chat, checkout assistance, order inquiries, product trivia, and more!
