@@ -42,9 +42,9 @@ const Navbar = () => {
               Shopify
             </a>
             <a 
-              href={USECASES}
+              href="#shopify-demo"
               >
-              Use Cases
+              Product Demo
             </a>
             <a  href={BLOGS}
           >
@@ -62,12 +62,12 @@ const Navbar = () => {
               >
               Tutorials
             </a>
-            <a 
+            {/* <a 
               target="_blank"
               href={CONTACT}
               >
               Contact
-            </a>
+            </a> */}
             <span className="text-neutral-500">|</span>
             <a
               href={VIEW_DEMO}

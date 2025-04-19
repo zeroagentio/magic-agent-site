@@ -34,9 +34,9 @@ export function Demo() {
 const Header = () => {
   return (
     <>
-                <div className="mx-auto max-w-2xl px-4 pt-10 sm:px-6 lg:grid lg:max-w-7xl lg:grid-cols-5  lg:gap-x-8 lg:px-8 lg:pt-16">
+                <div className="mx-auto max-w-2xl px-4 pt-10 sm:px-6 lg:grid lg:max-w-7xl lg:grid-cols-7  lg:gap-x-8 lg:px-0 lg:pt-16">
     
-                <div className="lg:col-span-3">
+                <div className="lg:col-span-5">
      <Particles
         className="absolute inset-0"
         quantity={1000}
@@ -45,9 +45,14 @@ const Header = () => {
         refresh
       />
       <AnimatedGradientTextDemo />  
-      <h1 className="mt-7 mb-3 bg-gradient-to-br  bg-clip-text py-6 text-5xl  font-semibold leading-none tracking-tight text-black text-balance sm:text-6xl md:text-7xl lg:text-7xl translate-y-[-1rem] animate-fade-in opacity-1 [--animation-delay:200ms]">              
-        Hire Zero, Your AI Store Employee who Speaks, Sells & More 
-        {/* <br className="hidden md:block" />&nbsp; Shopping Assistant */}
+      <h1 className="mt-7 mb-3 bg-gradient-to-br  bg-clip-text py-6 text-5xl  font-semibold leading-none tracking-tight text-black text-balance sm:text-6xl md:text-[4.3rem] lg:text-[4.3rem] translate-y-[-1rem] animate-fade-in opacity-1 [--animation-delay:200ms]">              
+        {/* AI Voice Agents for Sales & Support Powered by Smart AI Employees */}
+      {/* AI Voice Agents that sell products, handle customers support & More  */}
+      {/* Show Products, Sell More & Support Customers on browsers with AI Employees */}
+      {/* Show Products, Boost Sales & Turn Visitors to buyers 
+        <br className="hidden md:block" />&nbsp; with  AI Voice Agents */}
+        Grow Online Sales & Conversions with AI Agents
+        {/* Grow Online Sales & Conversions with AI Voice Agents */}
       </h1>
 
       <div className="max-w-5xl mx-auto text-center">
@@ -64,7 +69,7 @@ const Header = () => {
       </div>
       </div>
 
-        <div className="lg:col-start-4 lg:col-span-2"> 
+        <div className="lg:col-start-6 lg:col-span-2"> 
                           
                           <Image 
                           alt=''
