@@ -7,16 +7,22 @@ export const PricingData = [
       "billing": "/ month",
       "short": "Basic Assistance for Every Store!",
       "features": [
-        "50 Products",
-        "170 Conversations/month",
-        "120MB Knowledgebase",
-        "100 Customer Tickets",
-        "Unlimited tokens/month",
-        "Talk with Zero"
+        "15 mins AI Voice Assistant Time",
+        "30 Monthly Conversations",
+        "100K Character Knowledge Base", 
+        "10 Support Tickets", 
+        "7-day Chat history",
+        "14-days Analytics History"
+        // "15 mins AI-Voice Usage",
+        // "30 Conversations",
+        // "100K Knowledgebase Tokens",
+        // "7 days chat retention", 
+        // "14 days analytics retention", 
+        // "Talk with Zero"
       ]
     },
     {
-      "plan": "Pro",
+      "plan": "Starter",
       "price": 19,
       "price_inr" : 1099, 
       "description": "Empower your growing store with smarter AI and better customer engagement",
@@ -24,17 +30,17 @@ export const PricingData = [
       "short": "Best for Growing Stores!",
       "badge": "Most popular",
       "features": [
-        "300 Products",
-        "520 Conversations/month",
-        "2GB Knowledgebase",
-        "600 Customer Tickets",
-        'Analytics & Data Export',
-        "Unlimited tokens/month",
-        "Talk with Zero"
+        "120 mins AI Voice Assistant Time",
+        "150 Monthly Conversations",
+        "500K Character Knowledge Base", 
+        "75 Support Tickets", 
+        "Unlimited chat & analytics retention",        
+        // "AI Product Recommendations",
+        // "AI Prompt Suggestions", 
       ]
     },
     {
-        "plan": "Premium",
+        "plan": "Growth",
         "price": 39,
         "price_inr" : 3099, 
         "description": "Designed for large stores with advanced data-driven insights",
@@ -42,14 +48,12 @@ export const PricingData = [
       "short": "Comprehensive AI for Large-Scale Stores",
         "badge": "Most popular",
         "features": [
-          "Unlimited Products",
-          "3200 Conversations/month",
-          "10GB Knowledgebase",
-          "4000 Customer Tickets",
-          'Analytics & Data Export',
-          "Lifetime Conversations retention",      
-          "Unlimited tokens/month",
-          "Talk with Zero"
+          "300 mins AI Voice Assistant Time",
+          "650 Monthly Conversations",
+          "1M Character Knowledge Base", 
+          "150 Support Tickets", 
+          "Unlimited chat & analytics retention", 
+          "No Zeroagent Branding"
         ]
       }
   ]
@@ -57,8 +61,8 @@ export const PricingData = [
   export const Shopping = [
     {
       "name": "Total Products",
-      "free": 50,
-      "growth": 200,
+      "free": "Unlimited",
+      "growth": "Unlimited",
       "premium": "Unlimited"
     },
     {
@@ -76,23 +80,53 @@ export const PricingData = [
   ]
 
   export const Features = [
-      {
+    {
+      "name": "AI Voice Assistant Time",
+      "free": '15 mins',
+      "growth": "120 mins",
+      "premium": "300 mins"
+    },  
+    {
+      "name": "AI Product Recommendations",
+      "free": "true",
+      "growth": "true",
+      "premium": "true"
+    },
+    {
+      "name": "AI Prompt Suggestions",
+      "free": "true",
+      "growth": "true",
+      "premium": "true"
+    },
+    {
         "name": "User Conversations (per month)",
-        "free": 170,
-        "growth": 520,
-        "premium": 3200
+        "free": 30,
+        "growth": 150,
+        "premium": 650
       },
       {
-        "name": "Conversations Retention (on dashboard)",
-        "free": 30,
+        "name": "Chat History",
+        "free": "7-day" ,
+        "growth": "No limit",
+        "premium": "No limit"
+      },
+      {
+        "name": "Analytics History",
+        "free": "14-day",
+        "growth": "No limit",
+        "premium": "No limit"
+      },
+      {
+        "name": "Total Tokens",
+        "free": "Unlimited",
         "growth": "Unlimited",
         "premium": "Unlimited"
       },
       {
-        "name": "Knowledge Base",
-        "free": "120MB",
-        "growth": "2GB",
-        "premium": "10GB"
+        "name": "Knowledge Base Characters",
+        "free": "100k",
+        "growth": "500k",
+        "premium": "1M"
       },
       {
         "name": "Upload Files (for knowledge base)",
@@ -101,22 +135,16 @@ export const PricingData = [
         "premium": "true"
       },
       {
-        "name": "Analytics Data",
-        "free": "7-day",
-        "growth": "No time limit",
-        "premium": "No time limit"
-      },
-      {
         "name": "Data Export (tickets, user conversations)",
         "free": "false",
         "growth": "true",
         "premium": "true"
       },
       {
-        "name": "Raise Ticket",
-        "free": "false",
-        "growth": "true",
-        "premium": "true"
+        "name": "Support Tickets",
+        "free": "10",
+        "growth": "75",
+        "premium": "150"
       },
       {
         
@@ -124,10 +152,11 @@ export const PricingData = [
         "free": "false",
         "growth": "false",
         "premium": "true"
-      },{
-        "name": "Total Tokens",
-        "free": "Unlimited",
-        "growth": "Unlimited",
-        "premium": "Unlimited"
+      },
+      {
+        "name": "Talk with Zero",
+        "free": "true",
+        "growth": "true",
+        "premium": "true"
       },
     ]

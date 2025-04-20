@@ -24,7 +24,7 @@ const Pricing = () => {
         </p>
  
         <div className="flex items-center justify-center my-6">
-      <span
+      {/* <span
         className={`text-sm font-semibold ${
           billingCycle === "monthly" ? "text-gray-900" : "text-gray-500"
         }`}
@@ -51,7 +51,7 @@ const Pricing = () => {
         }`}
       >
         Yearly <span className="text-blue-900">(Save 20%)</span>
-      </span>
+      </span> */}
       
       <CurrencyDropdown setCurrency={setCurrency}/> 
     </div>
@@ -143,7 +143,7 @@ const Pricing = () => {
       </table>
 
       <br />
-      <table className="min-w-full divide-y divide-gray-200">
+      {/* <table className="min-w-full divide-y divide-gray-200">
         <thead>
           <tr>
             <th className="w-1/4 px-6 py-4 text-left text-base font-semibold text-gray-900">Online Store</th> 
@@ -175,7 +175,7 @@ const Pricing = () => {
             <td className="text-center px-6 py-4">Unlimited</td>
           </tr>
         </tbody>
-      </table>
+      </table> */}
 
     </div>
     {/* <div className="mt-8 grid gap-8 lg:grid-cols-3">

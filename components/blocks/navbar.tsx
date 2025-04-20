@@ -29,10 +29,11 @@ const Navbar = () => {
   
           <div className="ml-auto hidden space-x-6 font-semibold sm:hidden lg:flex h-full items-center"> 
            
-            <a
-              href={PRICING}
+          <a 
+              target="_blank"
+              href={TUTORIALS}
               >
-              Pricing
+              Tutorials
             </a>
             <FeatureDropdown />
             <a
@@ -56,12 +57,12 @@ const Navbar = () => {
               >
               Documentation
             </a>
-            <a 
-              target="_blank"
-              href={TUTORIALS}
+            <a
+              href={PRICING}
               >
-              Tutorials
+              Pricing
             </a>
+          
             {/* <a 
               target="_blank"
               href={CONTACT}
