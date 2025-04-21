@@ -3,7 +3,7 @@ export const PricingData = [
       "plan": "Free",
       "price": 0,
       "price_inr" : 0, 
-      "description": "Perfect for bussiness experimenting with AI",
+      "description": "Perfect for stores exploring AI",
       "billing": "/ month",
       "short": "Basic Assistance for Every Store!",
       "features": [
@@ -41,7 +41,7 @@ export const PricingData = [
       ]
     },
     {
-        "plan": "starter",
+        "plan": "Growth",
         "price": 45,
         "price_inr" : 2499, 
         "description": "Ideal for growing teams",
@@ -109,7 +109,7 @@ export const PricingData = [
         "name": "User Conversations per month",
         "free": 30,
         "starter": 150,
-        "growth": 650,
+        "growth": 450,
         "advanced": 1500
       },  
       
