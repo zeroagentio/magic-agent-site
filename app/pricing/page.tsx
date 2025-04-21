@@ -56,12 +56,12 @@ const Pricing = () => {
       <CurrencyDropdown setCurrency={setCurrency}/> 
     </div>
 
-        <div className="mx-auto grid max-w-2xl space-y-4 lg:space-y-0 grid-cols-1 text-start  sm:mt-10 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+        <div className="mx-auto grid max-w-2xl space-y-2 lg:space-y-0 grid-cols-1 text-start sm:mt-10 lg:mx-0 lg:max-w-none lg:grid-cols-4">
           
         {PricingData.map((plan, index) => (
         <div
           key={index}
-          className="col-span-1 bg-white mx-4 rounded-xl border border-borderColor shadow p-6"
+          className="col-span-1 bg-white mx-2 rounded-xl border border-borderColor shadow p-6"
         >
           <p className="mb-2 text-2xl font-semibold text-gray-900">
             {plan.plan} Plan
@@ -108,6 +108,10 @@ const Pricing = () => {
         <thead>
           <tr>
             <th className="w-1/4 px-6 py-4 text-left text-base font-semibold text-gray-900">Features</th> 
+            <th className="px-6 py-4 text-center text-base font-semibold text-gray-900">Free</th> 
+            <th className="px-6 py-4 text-center text-base font-semibold text-gray-900">Starter</th> 
+            <th className="px-6 py-4 text-center text-base font-semibold text-gray-900">Growth</th> 
+            <th className="px-6 py-4 text-center text-base font-semibold text-gray-900">Advanced</th> 
           </tr>
         </thead>
         <tbody className="bg-white divide-y divide-gray-100">
@@ -122,6 +126,15 @@ const Pricing = () => {
             <span className="text-red-700">✗</span>
           : feature.free }
               </td>
+
+              <td className="text-center px-6 py-4">
+              {feature.starter === "true" ? 
+              <span className="text-green-700">✔</span>
+            : feature.starter === "false" ? 
+            <span className="text-red-700">✗</span>
+          : feature.starter }
+              </td>
+
               <td className="text-center px-6 py-4">
               {feature.growth === "true" ? 
               <span className="text-green-700">✔</span>
@@ -129,13 +142,15 @@ const Pricing = () => {
             <span className="text-red-700">✗</span>
           : feature.growth }
               </td>
+          
               <td className="text-center px-6 py-4">
-              {feature.premium === "true" ? 
+              {feature.advanced === "true" ? 
               <span className="text-green-700">✔</span>
-            : feature.premium === "false" ? 
+            : feature.advanced === "false" ? 
             <span className="text-red-700">✗</span>
-          : feature.premium }
-              </td> 
+          : feature.advanced }
+              </td>
+
           </tr>
           ))}
           
