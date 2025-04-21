@@ -50,7 +50,7 @@ export const PricingData = [
         "badge": "Most popular",
         "features": [
           "300 mins of Voice AI per month",
-          "650 Conversations per month",
+          "450 Conversations per month",
           "150 Support Tickets per month", 
           "1M Characters of document content",
           "Unlimited Chat History", 
