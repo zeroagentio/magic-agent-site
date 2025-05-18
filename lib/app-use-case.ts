@@ -7,6 +7,7 @@ import  AiShoppingAgent from  "@/app/assets/smart_shopping_cart.jpeg";
 import  OnlineStore from  "@/app/assets/online-store.jpg";
 import SportsStore from "@/app/assets/sports-store.jpg";
 import SareeStore from "@/app/assets/saree-store.jpg";
+import BabyEssentialStore from "@/app/assets/baby-essentials-store.jpg";
 
 const THUMBNAIL = "https://startup-template-sage.vercel.app/hero-light.png";
 
@@ -26,5 +27,10 @@ export const useCaseData: UseCaseDemo[] = [
     videoSrc: "https://www.youtube.com/embed/E92DFU3vxNI",
     thumbnail: SportsStore.src
   },
- 
+
+    {
+    id: 3,
+    videoSrc: "https://www.youtube.com/embed/WG9YDomS0O4",
+    thumbnail: BabyEssentialStore.src
+  },
 ];
