@@ -1,4 +1,5 @@
 "use client";
+import AppSampleVideo from "@/components/blocks/app-samples";
 import { BannerCard } from "@/components/blocks/banner-card";
 import Chat from "@/components/blocks/chat";
 import CTA from "@/components/blocks/cta";
@@ -30,13 +31,14 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <div className="relative mx-auto my-28 max-w-[80rem] px-6 text-center md:px-8">
+      <div className="relative mx-auto my-28 max-w-full lg:max-w-[80rem] px-6 text-center md:px-8">
         <Header />
         <BannerCard />
         <VoiceAI />
         <Chat />
-        <TalkWithZero />
         <FeatureGrid />
+        <AppSampleVideo />
+        <TalkWithZero />
         <UseCase />
       </div>
       <CTA />

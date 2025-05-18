@@ -9,9 +9,9 @@ const THUMBNAIL = "https://startup-template-sage.vercel.app/hero-light.png"
 
 const TalkWithZero = () => {
     return (
-        <div className="mt-10 mx-auto text-start max-w-2xl px-6 lg:max-w-7xl lg:px-8">
+        <div className="mt-10 sm:mt-32 mx-auto text-start max-w-2xl px-6 lg:max-w-7xl lg:px-8">
         {/* <h3 className="text-base/7 font-semibold text-gray-600">AI Store Manager</h3> */}
-        <h2 className="mt-2 max-w-lg text-balance  text-3xl font-semibold tracking-tight text-gray-950 sm:text-5xl">
+        <h2 className="mt-2 max-w-lg text-balance  text-4xl font-semibold tracking-tight text-gray-950 sm:text-5xl">
         Meet Zero, Your AI Store Manager
         </h2>
         <p className="mt-4 w-full lg:w-3/5 line-clamp-3 text-xl font-medium text-gray-600">AI Store Manager handles orders, tracks inventory, and provide insights into customer activity & store performance, so you don't have to.

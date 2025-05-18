@@ -43,7 +43,7 @@ const Navbar = () => {
               Shopify
             </a>
             <a 
-              href="#shopify-demo"
+              href="#real-world-use-case"
               >
               Product Demo
             </a>

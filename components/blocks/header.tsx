@@ -44,7 +44,7 @@ const Header = () => {
             refresh
           />
           <AnimatedGradientTextDemo />
-          <h1 className="mt-7 mb-3 bg-gradient-to-br  bg-clip-text py-6 text-5xl  font-medium leading-none tracking-tight text-black text-balance sm:text-6xl md:text-[4.3rem] lg:text-[4.3rem] translate-y-[-1rem] animate-fade-in opacity-1 [--animation-delay:200ms]">
+          <h1 className="mt-7 mb-3 bg-gradient-to-br  bg-clip-text py-6 text-4xl  font-medium leading-none tracking-tight text-black text-balance sm:text-5xl md:text-[4.3rem] lg:text-[4.3rem] translate-y-[-1rem] animate-fade-in opacity-1 [--animation-delay:200ms]">
             {/* AI Voice Agents for Sales & Support Powered by Smart AI Employees */}
             {/* AI Voice Agents that sell products, handle customers support & More  */}
             {/* Show Products, Sell More & Support Customers on browsers with AI Employees */}
@@ -55,7 +55,7 @@ const Header = () => {
             <span className="inline ">
               <span className=" ">Elevate your</span>
 
-              <div className="relative -left-1.5 sm:left-0 text-center inline-block px-1.5 mx-0 sm:mx-1.5">
+              <div className="relative left-1 sm:-left-1.5 sm:left-0 text-center inline-block px-1.5 mx-0 sm:mx-1.5">
                 <div className="relative z-10 inline text-black">
                   Customer
                 </div>
@@ -103,10 +103,10 @@ const Header = () => {
           </div>
         </div>
 
-        <div className="lg:col-start-6 lg:col-span-2">
+        <div className="lg:col-start-6 lg:col-span-2 flex justify-center">
           <Image
             alt=""
-            className="lg:max-w-[25rem] max-w-[20rem] w-auto h-full"
+            className="lg:max-w-[25rem] max-w-[15rem] w-auto h-full"
             //  width={400}
             //  height={700}
             src={ZeroPersona}

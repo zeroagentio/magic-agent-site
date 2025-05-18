@@ -13,10 +13,9 @@ export default function Chat () {
                   
                   {/* Options */}
                   <div className="lg:col-span-2"> 
-                     
                      <Image 
                      alt=''
-                     className='lg:max-w-[30rem] max-w-[25rem] w-auto h-full'
+                     className='lg:max-w-[30rem] max-w-[20rem] w-auto h-full'
                     //  width={400}
                     //  height={700}
                      src={ChatMock}
@@ -60,7 +59,7 @@ export default function Chat () {
         {stats.map((stat, index) => (
           <div
             key={index}
-            className={`flex items-center w-4/5 gap-4 p-4 border-2 rounded-2xl  border-neutral-200`}
+            className={`flex items-center w-full sm:w-4/5 gap-4 p-4 border-2 rounded-2xl  border-neutral-200`}
           >
             <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-gray-900 text-white text-2xl">
               {stat.icon}
