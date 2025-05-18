@@ -60,7 +60,7 @@ const projects =  [
 
 export default function FeatureGrid() {
     return ( 
-        <div className="mt-32 mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
+        <div className="mt-4 sm:mt-20 mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
           <h2 className="text-center text-lg font-semibold text-gray-600">Smarter Shopping</h2>
           <p className="mx-auto mt-2 max-w-2xl leading-loose text-balance text-center text-4xl font-semibold tracking-tight text-gray-950 sm:text-5xl"
           style={{ lineHeight: '1.2' }}>

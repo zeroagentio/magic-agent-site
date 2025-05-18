@@ -7,7 +7,7 @@ import { RainbowButton } from '../magicui/rainbow-button';
  
 export default function VoiceAI () {
     return (  
-              <div className="bg-white mt-5"> 
+              <div className="bg-white sm:mt-5"> 
                 {/* Product info */}
                 <div className="mx-auto max-w-2xl px-4 pt-10 sm:px-6 lg:grid lg:max-w-7xl lg:grid-cols-4  lg:gap-x-8 lg:px-8 lg:pt-16">
                   
@@ -32,7 +32,7 @@ export default function VoiceAI () {
                      
                      <Image 
                      alt=''
-                     className='lg:max-w-[30rem] max-w-[25rem] w-auto h-full'
+                     className='lg:max-w-[30rem] max-w-[20rem] w-auto h-full'
                     //  width={400}
                     //  height={700}
                      src={ChatMock}
@@ -65,7 +65,7 @@ export default function VoiceAI () {
         {stats.map((stat, index) => (
           <div
             key={index}
-            className={`flex items-center w-4/5 gap-4 p-4 border-2 rounded-2xl  border-neutral-200`}
+            className={`flex items-center w-full sm:w-4/5 gap-4 p-4 border-2 rounded-2xl  border-neutral-200`}
           >
             <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-gray-900 text-white text-2xl">
               {stat.icon}
